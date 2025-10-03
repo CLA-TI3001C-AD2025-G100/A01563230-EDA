@@ -1,0 +1,4337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc875275a00636174d689571b124963a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bc875275a00636174d689571b124963a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc875275a00636174d689571b124963a = L.map(
+                "map_bc875275a00636174d689571b124963a",
+                {
+                    center: [28.6325, -106.0691],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b54e7c5887d322874c3db21ec3663101 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b54e7c5887d322874c3db21ec3663101.addTo(map_bc875275a00636174d689571b124963a);
+        
+    
+            var marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_e9b91b7303486a356783190d718ee135 = L.marker(
+                [28.600113, -106.061258],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7ecca4cf1e8e6d90580adb27d88db3bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6ca3b629d2560b0e4396330b24d4f2 = $(`<div id="html_ac6ca3b629d2560b0e4396330b24d4f2" style="width: 100.0%; height: 100.0%;">FOLIO: 759476<br>FECHA: 2025-01-01 00:00:00<br>HORA: 5<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 76</div>`)[0];
+                popup_7ecca4cf1e8e6d90580adb27d88db3bd.setContent(html_ac6ca3b629d2560b0e4396330b24d4f2);
+            
+        
+
+        marker_e9b91b7303486a356783190d718ee135.bindPopup(popup_7ecca4cf1e8e6d90580adb27d88db3bd)
+        ;
+
+        
+    
+    
+            var marker_463c8e696e458c3c5328cdf11d36427f = L.marker(
+                [28.609652, -106.06599],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a7c0da16df357975368f65e4412cb5d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebb61addc2acdad1829828db1789dd67 = $(`<div id="html_ebb61addc2acdad1829828db1789dd67" style="width: 100.0%; height: 100.0%;">FOLIO: 759978<br>FECHA: 2025-01-01 00:00:00<br>HORA: 5<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 75</div>`)[0];
+                popup_a7c0da16df357975368f65e4412cb5d0.setContent(html_ebb61addc2acdad1829828db1789dd67);
+            
+        
+
+        marker_463c8e696e458c3c5328cdf11d36427f.bindPopup(popup_a7c0da16df357975368f65e4412cb5d0)
+        ;
+
+        
+    
+    
+            var marker_d7e8acd28113457bb4cf4f21785f3542 = L.marker(
+                [28.588101, -106.015708],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0e286d0e3f87921f06d1baa95ad298f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4caa81d39e544e343085096dd0fd3101 = $(`<div id="html_4caa81d39e544e343085096dd0fd3101" style="width: 100.0%; height: 100.0%;">FOLIO: 763388<br>FECHA: 2025-01-02 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_0e286d0e3f87921f06d1baa95ad298f8.setContent(html_4caa81d39e544e343085096dd0fd3101);
+            
+        
+
+        marker_d7e8acd28113457bb4cf4f21785f3542.bindPopup(popup_0e286d0e3f87921f06d1baa95ad298f8)
+        ;
+
+        
+    
+    
+            var marker_46fc0b3897e05c1369070819c2684a4c = L.marker(
+                [28.651401, -106.084529],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f80a1a416f6a24f3be8e765266865009 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e853e4f2e49349cab887b0024b3c230 = $(`<div id="html_5e853e4f2e49349cab887b0024b3c230" style="width: 100.0%; height: 100.0%;">FOLIO: 764276<br>FECHA: 2025-01-03 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 25</div>`)[0];
+                popup_f80a1a416f6a24f3be8e765266865009.setContent(html_5e853e4f2e49349cab887b0024b3c230);
+            
+        
+
+        marker_46fc0b3897e05c1369070819c2684a4c.bindPopup(popup_f80a1a416f6a24f3be8e765266865009)
+        ;
+
+        
+    
+    
+            var marker_93b5c395e5159de2f16353a9a2225eb5 = L.marker(
+                [28.577091, -106.030712],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5046cf96f70815b9798fdaf97b26b8ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf4d455d046b2cff5afdcbac5a779b1c = $(`<div id="html_bf4d455d046b2cff5afdcbac5a779b1c" style="width: 100.0%; height: 100.0%;">FOLIO: 767055<br>FECHA: 2025-01-04 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 60</div>`)[0];
+                popup_5046cf96f70815b9798fdaf97b26b8ab.setContent(html_bf4d455d046b2cff5afdcbac5a779b1c);
+            
+        
+
+        marker_93b5c395e5159de2f16353a9a2225eb5.bindPopup(popup_5046cf96f70815b9798fdaf97b26b8ab)
+        ;
+
+        
+    
+    
+            var marker_02961d747047e75afdb909fbb50a1b6b = L.marker(
+                [28.579841, -106.012201],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_81f26ec70c83459e575c21ed8e8b0e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd011611c7d08370af84574cbd43ed90 = $(`<div id="html_dd011611c7d08370af84574cbd43ed90" style="width: 100.0%; height: 100.0%;">FOLIO: 771113<br>FECHA: 2025-01-06 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_81f26ec70c83459e575c21ed8e8b0e83.setContent(html_dd011611c7d08370af84574cbd43ed90);
+            
+        
+
+        marker_02961d747047e75afdb909fbb50a1b6b.bindPopup(popup_81f26ec70c83459e575c21ed8e8b0e83)
+        ;
+
+        
+    
+    
+            var marker_faacfb4d725f552e0be0f6cf1e0f3d87 = L.marker(
+                [28.689526, -106.094224],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e28fea60a1da05b6b7e8f44e9b0fd9f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20dced752c2e9927b471768dcfcede51 = $(`<div id="html_20dced752c2e9927b471768dcfcede51" style="width: 100.0%; height: 100.0%;">FOLIO: 771133<br>FECHA: 2025-01-06 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 18</div>`)[0];
+                popup_e28fea60a1da05b6b7e8f44e9b0fd9f1.setContent(html_20dced752c2e9927b471768dcfcede51);
+            
+        
+
+        marker_faacfb4d725f552e0be0f6cf1e0f3d87.bindPopup(popup_e28fea60a1da05b6b7e8f44e9b0fd9f1)
+        ;
+
+        
+    
+    
+            var marker_584f1037b9f21a65cae0f51b4eefdb7a = L.marker(
+                [28.597555, -106.032187],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9c0cb077c12607ea900b446d7c73fe30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56ca2d97c7f644c66ca65544950bfa7d = $(`<div id="html_56ca2d97c7f644c66ca65544950bfa7d" style="width: 100.0%; height: 100.0%;">FOLIO: 782533<br>FECHA: 2025-01-12 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_9c0cb077c12607ea900b446d7c73fe30.setContent(html_56ca2d97c7f644c66ca65544950bfa7d);
+            
+        
+
+        marker_584f1037b9f21a65cae0f51b4eefdb7a.bindPopup(popup_9c0cb077c12607ea900b446d7c73fe30)
+        ;
+
+        
+    
+    
+            var marker_fc11340a135315974f496769b2ec9570 = L.marker(
+                [28.663888, -105.94051],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_2ab17f7007bf63658eba946e3694e2d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_153280d3387613678f7f076bb0ba4273 = $(`<div id="html_153280d3387613678f7f076bb0ba4273" style="width: 100.0%; height: 100.0%;">FOLIO: 0<br>FECHA: 2025-01-15 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 48</div>`)[0];
+                popup_2ab17f7007bf63658eba946e3694e2d2.setContent(html_153280d3387613678f7f076bb0ba4273);
+            
+        
+
+        marker_fc11340a135315974f496769b2ec9570.bindPopup(popup_2ab17f7007bf63658eba946e3694e2d2)
+        ;
+
+        
+    
+    
+            var marker_9d75fe87a0665852a46ef0a71a25bcee = L.marker(
+                [28.696163, -106.133272],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a53805fddc60a9d95f03a618d8e47cf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eef967c3988b5e971b175eff1b0cda59 = $(`<div id="html_eef967c3988b5e971b175eff1b0cda59" style="width: 100.0%; height: 100.0%;">FOLIO: 792245<br>FECHA: 2025-01-17 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 28</div>`)[0];
+                popup_a53805fddc60a9d95f03a618d8e47cf6.setContent(html_eef967c3988b5e971b175eff1b0cda59);
+            
+        
+
+        marker_9d75fe87a0665852a46ef0a71a25bcee.bindPopup(popup_a53805fddc60a9d95f03a618d8e47cf6)
+        ;
+
+        
+    
+    
+            var marker_7c0f0b8ba0658de481de6e31c8acd4ad = L.marker(
+                [28.616386, -106.055468],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_89ff418ae6e7c2c44765c1f07ae9be09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d189d619b91e5697f66a95100f51b6eb = $(`<div id="html_d189d619b91e5697f66a95100f51b6eb" style="width: 100.0%; height: 100.0%;">FOLIO: 797243<br>FECHA: 2025-01-20 00:00:00<br>HORA: 9<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 77</div>`)[0];
+                popup_89ff418ae6e7c2c44765c1f07ae9be09.setContent(html_d189d619b91e5697f66a95100f51b6eb);
+            
+        
+
+        marker_7c0f0b8ba0658de481de6e31c8acd4ad.bindPopup(popup_89ff418ae6e7c2c44765c1f07ae9be09)
+        ;
+
+        
+    
+    
+            var marker_5c949eb063b4be9d6e65f7abab5c9d8f = L.marker(
+                [28.726179, -106.119073],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3361ec91c4725846d3845b76860b8712 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5bb9fb601aeca68d007700e3af96943 = $(`<div id="html_a5bb9fb601aeca68d007700e3af96943" style="width: 100.0%; height: 100.0%;">FOLIO: 801896<br>FECHA: 2025-01-22 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 13</div>`)[0];
+                popup_3361ec91c4725846d3845b76860b8712.setContent(html_a5bb9fb601aeca68d007700e3af96943);
+            
+        
+
+        marker_5c949eb063b4be9d6e65f7abab5c9d8f.bindPopup(popup_3361ec91c4725846d3845b76860b8712)
+        ;
+
+        
+    
+    
+            var marker_d552da0c5990fc3a6da941add13683a6 = L.marker(
+                [28.586204, -106.102057],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_4c71ef6a0a8caf9362c6fc551211c31b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc51a782153052c72e87085308f6633a = $(`<div id="html_fc51a782153052c72e87085308f6633a" style="width: 100.0%; height: 100.0%;">FOLIO: 804092<br>FECHA: 2025-01-23 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 73</div>`)[0];
+                popup_4c71ef6a0a8caf9362c6fc551211c31b.setContent(html_fc51a782153052c72e87085308f6633a);
+            
+        
+
+        marker_d552da0c5990fc3a6da941add13683a6.bindPopup(popup_4c71ef6a0a8caf9362c6fc551211c31b)
+        ;
+
+        
+    
+    
+            var marker_ffee24a8019870b432b706e17972be16 = L.marker(
+                [28.621854, -106.063005],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e02f8dd0c1bd0a4133920d8d9f17d936 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc8789f41351ea12319065ea5eeda5a0 = $(`<div id="html_cc8789f41351ea12319065ea5eeda5a0" style="width: 100.0%; height: 100.0%;">FOLIO: 809397<br>FECHA: 2025-01-26 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 70</div>`)[0];
+                popup_e02f8dd0c1bd0a4133920d8d9f17d936.setContent(html_cc8789f41351ea12319065ea5eeda5a0);
+            
+        
+
+        marker_ffee24a8019870b432b706e17972be16.bindPopup(popup_e02f8dd0c1bd0a4133920d8d9f17d936)
+        ;
+
+        
+    
+    
+            var marker_39a0e5eee62257d9258bfb7faea98613 = L.marker(
+                [28.62156, -106.063182],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ad18ca5fdb7662ef791549098addbb4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bac2124e66d20ee346026b27766fa8e1 = $(`<div id="html_bac2124e66d20ee346026b27766fa8e1" style="width: 100.0%; height: 100.0%;">FOLIO: 809387<br>FECHA: 2025-01-26 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 70</div>`)[0];
+                popup_ad18ca5fdb7662ef791549098addbb4f.setContent(html_bac2124e66d20ee346026b27766fa8e1);
+            
+        
+
+        marker_39a0e5eee62257d9258bfb7faea98613.bindPopup(popup_ad18ca5fdb7662ef791549098addbb4f)
+        ;
+
+        
+    
+    
+            var marker_cd1dd6bcbfeb2be5471e1cb978ef4a40 = L.marker(
+                [28.615087, -106.021553],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5ab9b046d84fe82f51d8cf0cc78efa9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_069fbcec388b5c254395206d2d07d185 = $(`<div id="html_069fbcec388b5c254395206d2d07d185" style="width: 100.0%; height: 100.0%;">FOLIO: 811956<br>FECHA: 2025-01-27 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_5ab9b046d84fe82f51d8cf0cc78efa9e.setContent(html_069fbcec388b5c254395206d2d07d185);
+            
+        
+
+        marker_cd1dd6bcbfeb2be5471e1cb978ef4a40.bindPopup(popup_5ab9b046d84fe82f51d8cf0cc78efa9e)
+        ;
+
+        
+    
+    
+            var marker_6620fc3ba2d312771d29c788cbc202eb = L.marker(
+                [28.741581, -106.140004],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_14d5b610bcbbd87fedd9b22a66405afd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74bf52439787996b1dafafca5dbd508c = $(`<div id="html_74bf52439787996b1dafafca5dbd508c" style="width: 100.0%; height: 100.0%;">FOLIO: 812264<br>FECHA: 2025-01-27 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_14d5b610bcbbd87fedd9b22a66405afd.setContent(html_74bf52439787996b1dafafca5dbd508c);
+            
+        
+
+        marker_6620fc3ba2d312771d29c788cbc202eb.bindPopup(popup_14d5b610bcbbd87fedd9b22a66405afd)
+        ;
+
+        
+    
+    
+            var marker_1192f9200ab33e1b0f411214816b06ee = L.marker(
+                [28.704103, -106.127548],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9bfb9a933ed5ebc9b3071ffed03845d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016bff12ce9de555cf62a0e2131260b4 = $(`<div id="html_016bff12ce9de555cf62a0e2131260b4" style="width: 100.0%; height: 100.0%;">FOLIO: 813291<br>FECHA: 2025-01-28 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 12</div>`)[0];
+                popup_9bfb9a933ed5ebc9b3071ffed03845d5.setContent(html_016bff12ce9de555cf62a0e2131260b4);
+            
+        
+
+        marker_1192f9200ab33e1b0f411214816b06ee.bindPopup(popup_9bfb9a933ed5ebc9b3071ffed03845d5)
+        ;
+
+        
+    
+    
+            var marker_7b5937901d6b0c7649f9f9d5b271cb02 = L.marker(
+                [28.666717, -106.100198],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_02552796ed3d8165df191a1a8bbf05b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ce4c9ee7243d410e7d7a1b66428ca64 = $(`<div id="html_3ce4c9ee7243d410e7d7a1b66428ca64" style="width: 100.0%; height: 100.0%;">FOLIO: 813367<br>FECHA: 2025-01-28 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 23</div>`)[0];
+                popup_02552796ed3d8165df191a1a8bbf05b7.setContent(html_3ce4c9ee7243d410e7d7a1b66428ca64);
+            
+        
+
+        marker_7b5937901d6b0c7649f9f9d5b271cb02.bindPopup(popup_02552796ed3d8165df191a1a8bbf05b7)
+        ;
+
+        
+    
+    
+            var marker_03826c5b9941cfec141c33975f29f8d3 = L.marker(
+                [28.660271, -106.101919],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3c5a645d7162a906b72734a4120ec403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_812ae3ed9a06d46aa8e8805eda1ae307 = $(`<div id="html_812ae3ed9a06d46aa8e8805eda1ae307" style="width: 100.0%; height: 100.0%;">FOLIO: 818515<br>FECHA: 2025-01-31 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 23</div>`)[0];
+                popup_3c5a645d7162a906b72734a4120ec403.setContent(html_812ae3ed9a06d46aa8e8805eda1ae307);
+            
+        
+
+        marker_03826c5b9941cfec141c33975f29f8d3.bindPopup(popup_3c5a645d7162a906b72734a4120ec403)
+        ;
+
+        
+    
+    
+            var marker_8be41c352e2468956ffda067c4d11a81 = L.marker(
+                [28.660246, -106.101947],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c215858099adbee6ec33e83aa16b5a69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f286a68283b7762eb831ff3cddda8c = $(`<div id="html_43f286a68283b7762eb831ff3cddda8c" style="width: 100.0%; height: 100.0%;">FOLIO: 0<br>FECHA: 2025-02-01 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 23</div>`)[0];
+                popup_c215858099adbee6ec33e83aa16b5a69.setContent(html_43f286a68283b7762eb831ff3cddda8c);
+            
+        
+
+        marker_8be41c352e2468956ffda067c4d11a81.bindPopup(popup_c215858099adbee6ec33e83aa16b5a69)
+        ;
+
+        
+    
+    
+            var marker_01893c7b4adf001c2563b5521ad68c71 = L.marker(
+                [28.638931, -106.002604],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_417464aa066a5a562fce1cf70479f5d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2425ab1ad591eceedc90f974d0ff2af8 = $(`<div id="html_2425ab1ad591eceedc90f974d0ff2af8" style="width: 100.0%; height: 100.0%;">FOLIO: 822961<br>FECHA: 2025-02-02 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_417464aa066a5a562fce1cf70479f5d7.setContent(html_2425ab1ad591eceedc90f974d0ff2af8);
+            
+        
+
+        marker_01893c7b4adf001c2563b5521ad68c71.bindPopup(popup_417464aa066a5a562fce1cf70479f5d7)
+        ;
+
+        
+    
+    
+            var marker_cafedf9266f80dc328f9eca4cd7a4ca7 = L.marker(
+                [28.674776, -105.982463],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c7bae0d692107e8b5511cce7e3f55613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_413dc62a0e6937b2aa4ff3fe6cbfc7a6 = $(`<div id="html_413dc62a0e6937b2aa4ff3fe6cbfc7a6" style="width: 100.0%; height: 100.0%;">FOLIO: 823029<br>FECHA: 2025-02-02 00:00:00<br>HORA: 8<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_c7bae0d692107e8b5511cce7e3f55613.setContent(html_413dc62a0e6937b2aa4ff3fe6cbfc7a6);
+            
+        
+
+        marker_cafedf9266f80dc328f9eca4cd7a4ca7.bindPopup(popup_c7bae0d692107e8b5511cce7e3f55613)
+        ;
+
+        
+    
+    
+            var marker_00a15ef57a962231cef8467197da49d6 = L.marker(
+                [28.578775, -106.034213],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_056e9afc13cffd04a6942a2e976b5f70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce3b7c6fc02a1ebb0e8e007cc5523db = $(`<div id="html_cce3b7c6fc02a1ebb0e8e007cc5523db" style="width: 100.0%; height: 100.0%;">FOLIO: 829032<br>FECHA: 2025-02-04 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_056e9afc13cffd04a6942a2e976b5f70.setContent(html_cce3b7c6fc02a1ebb0e8e007cc5523db);
+            
+        
+
+        marker_00a15ef57a962231cef8467197da49d6.bindPopup(popup_056e9afc13cffd04a6942a2e976b5f70)
+        ;
+
+        
+    
+    
+            var marker_089f43c7370539172a485426d2faa480 = L.marker(
+                [28.594954, -106.163489],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3afbc5c8c3ba186c4b3b1ab2efd9dba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_734a9bd561fc02cedc8948780f98b83a = $(`<div id="html_734a9bd561fc02cedc8948780f98b83a" style="width: 100.0%; height: 100.0%;">FOLIO: 836754<br>FECHA: 2025-02-08 00:00:00<br>HORA: 8<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 34</div>`)[0];
+                popup_3afbc5c8c3ba186c4b3b1ab2efd9dba6.setContent(html_734a9bd561fc02cedc8948780f98b83a);
+            
+        
+
+        marker_089f43c7370539172a485426d2faa480.bindPopup(popup_3afbc5c8c3ba186c4b3b1ab2efd9dba6)
+        ;
+
+        
+    
+    
+            var marker_9e5390740f6db30291231cab4a4d0b9f = L.marker(
+                [28.643124, -106.084108],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c1ea3663bf815d7e528feabdd9e0d1ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0abeffcd6eb5b3fe96e22c75593c0219 = $(`<div id="html_0abeffcd6eb5b3fe96e22c75593c0219" style="width: 100.0%; height: 100.0%;">FOLIO: 837740<br>FECHA: 2025-02-08 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 25</div>`)[0];
+                popup_c1ea3663bf815d7e528feabdd9e0d1ad.setContent(html_0abeffcd6eb5b3fe96e22c75593c0219);
+            
+        
+
+        marker_9e5390740f6db30291231cab4a4d0b9f.bindPopup(popup_c1ea3663bf815d7e528feabdd9e0d1ad)
+        ;
+
+        
+    
+    
+            var marker_97370d308a43d8ed88c19d20990f0c2f = L.marker(
+                [28.673876, -105.999553],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_8c1ed4322cebb221f6a0f572e4be4068 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70908c38cc85140718fdbfd969a72452 = $(`<div id="html_70908c38cc85140718fdbfd969a72452" style="width: 100.0%; height: 100.0%;">FOLIO: 842943<br>FECHA: 2025-02-10 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 46</div>`)[0];
+                popup_8c1ed4322cebb221f6a0f572e4be4068.setContent(html_70908c38cc85140718fdbfd969a72452);
+            
+        
+
+        marker_97370d308a43d8ed88c19d20990f0c2f.bindPopup(popup_8c1ed4322cebb221f6a0f572e4be4068)
+        ;
+
+        
+    
+    
+            var marker_f30f5d2ce1162ea9c51c87b13fab81cc = L.marker(
+                [28.619349, -106.022981],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_266eb31765e64d1e0b3e408a10a42d8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9933b07cc9dbe9b4d6876f9879b64a82 = $(`<div id="html_9933b07cc9dbe9b4d6876f9879b64a82" style="width: 100.0%; height: 100.0%;">FOLIO: 843964<br>FECHA: 2025-02-10 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_266eb31765e64d1e0b3e408a10a42d8d.setContent(html_9933b07cc9dbe9b4d6876f9879b64a82);
+            
+        
+
+        marker_f30f5d2ce1162ea9c51c87b13fab81cc.bindPopup(popup_266eb31765e64d1e0b3e408a10a42d8d)
+        ;
+
+        
+    
+    
+            var marker_2a452b96e9d15d2a8f45dfd21a4d7561 = L.marker(
+                [28.589855, -106.148491],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f7f8700fafdd1a89df5151ae595df3b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbf92f39ad4df8bf7d72a6abb86b8bcc = $(`<div id="html_cbf92f39ad4df8bf7d72a6abb86b8bcc" style="width: 100.0%; height: 100.0%;">FOLIO: 846517<br>FECHA: 2025-02-12 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 34</div>`)[0];
+                popup_f7f8700fafdd1a89df5151ae595df3b1.setContent(html_cbf92f39ad4df8bf7d72a6abb86b8bcc);
+            
+        
+
+        marker_2a452b96e9d15d2a8f45dfd21a4d7561.bindPopup(popup_f7f8700fafdd1a89df5151ae595df3b1)
+        ;
+
+        
+    
+    
+            var marker_f6e5341c2b39865b1177f365a4cdd2e4 = L.marker(
+                [28.673694, -106.096967],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_bdc4ab7db509f7b6c0b5f3f24ff4ebdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be4b56a6bb4fa5564e6ff96390b9f5d5 = $(`<div id="html_be4b56a6bb4fa5564e6ff96390b9f5d5" style="width: 100.0%; height: 100.0%;">FOLIO: 849786<br>FECHA: 2025-02-13 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 24</div>`)[0];
+                popup_bdc4ab7db509f7b6c0b5f3f24ff4ebdc.setContent(html_be4b56a6bb4fa5564e6ff96390b9f5d5);
+            
+        
+
+        marker_f6e5341c2b39865b1177f365a4cdd2e4.bindPopup(popup_bdc4ab7db509f7b6c0b5f3f24ff4ebdc)
+        ;
+
+        
+    
+    
+            var marker_2da2e5b6ce4a601a2ac462003a42905d = L.marker(
+                [28.678459, -105.983183],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_51e010796c81338dec8664754eb0e757 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2bd333f86f99a638d3f47bb0c530b4a = $(`<div id="html_f2bd333f86f99a638d3f47bb0c530b4a" style="width: 100.0%; height: 100.0%;">FOLIO: 854915<br>FECHA: 2025-02-15 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_51e010796c81338dec8664754eb0e757.setContent(html_f2bd333f86f99a638d3f47bb0c530b4a);
+            
+        
+
+        marker_2da2e5b6ce4a601a2ac462003a42905d.bindPopup(popup_51e010796c81338dec8664754eb0e757)
+        ;
+
+        
+    
+    
+            var marker_7942e1271f32d2a6c92ca5b2ccdf4ab5 = L.marker(
+                [28.696559, -106.119026],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9df35be867a45a16e82edc0e9176a50e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f118a638df977f16cf3d222e95178c45 = $(`<div id="html_f118a638df977f16cf3d222e95178c45" style="width: 100.0%; height: 100.0%;">FOLIO: 857388<br>FECHA: 2025-02-16 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 16</div>`)[0];
+                popup_9df35be867a45a16e82edc0e9176a50e.setContent(html_f118a638df977f16cf3d222e95178c45);
+            
+        
+
+        marker_7942e1271f32d2a6c92ca5b2ccdf4ab5.bindPopup(popup_9df35be867a45a16e82edc0e9176a50e)
+        ;
+
+        
+    
+    
+            var marker_cea894fec8abe384a344e9247c166858 = L.marker(
+                [28.639134, -106.05167],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3487db2d0e21f776033d344be80d6f69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ef816b2248b09f2f7d4ab4f26afa0b9 = $(`<div id="html_6ef816b2248b09f2f7d4ab4f26afa0b9" style="width: 100.0%; height: 100.0%;">FOLIO: 863108<br>FECHA: 2025-02-18 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 71</div>`)[0];
+                popup_3487db2d0e21f776033d344be80d6f69.setContent(html_6ef816b2248b09f2f7d4ab4f26afa0b9);
+            
+        
+
+        marker_cea894fec8abe384a344e9247c166858.bindPopup(popup_3487db2d0e21f776033d344be80d6f69)
+        ;
+
+        
+    
+    
+            var marker_a94d010ef73059a2bf525ee01cca4ed5 = L.marker(
+                [28.63938, -106.047126],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_011678f952bf2b1a97294df34dc369f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcc9924b619d4e57d2f7184021d62150 = $(`<div id="html_dcc9924b619d4e57d2f7184021d62150" style="width: 100.0%; height: 100.0%;">FOLIO: 871702<br>FECHA: 2025-02-22 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 49</div>`)[0];
+                popup_011678f952bf2b1a97294df34dc369f0.setContent(html_dcc9924b619d4e57d2f7184021d62150);
+            
+        
+
+        marker_a94d010ef73059a2bf525ee01cca4ed5.bindPopup(popup_011678f952bf2b1a97294df34dc369f0)
+        ;
+
+        
+    
+    
+            var marker_441fb81979eab6f22a31f2dc48307ce0 = L.marker(
+                [28.595074, -106.005211],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_2d739eb9baa99494fe6b56a7865ccc3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8465020715ccb92c87d1c3f7b8d9e2b = $(`<div id="html_b8465020715ccb92c87d1c3f7b8d9e2b" style="width: 100.0%; height: 100.0%;">FOLIO: 872166<br>FECHA: 2025-02-23 00:00:00<br>HORA: 4<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_2d739eb9baa99494fe6b56a7865ccc3b.setContent(html_b8465020715ccb92c87d1c3f7b8d9e2b);
+            
+        
+
+        marker_441fb81979eab6f22a31f2dc48307ce0.bindPopup(popup_2d739eb9baa99494fe6b56a7865ccc3b)
+        ;
+
+        
+    
+    
+            var marker_9f30be57dc2c368b88d96a1e5c141056 = L.marker(
+                [28.60937, -106.029782],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_69c1d7588c3d84b618600ff815f3e976 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_474b493d2cade32a4f8d6031c0d56dee = $(`<div id="html_474b493d2cade32a4f8d6031c0d56dee" style="width: 100.0%; height: 100.0%;">FOLIO: 875992<br>FECHA: 2025-02-24 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_69c1d7588c3d84b618600ff815f3e976.setContent(html_474b493d2cade32a4f8d6031c0d56dee);
+            
+        
+
+        marker_9f30be57dc2c368b88d96a1e5c141056.bindPopup(popup_69c1d7588c3d84b618600ff815f3e976)
+        ;
+
+        
+    
+    
+            var marker_927563c1242c09e36d54d1898ec54781 = L.marker(
+                [28.691501, -106.148009],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_363654cba5959986188e543afbea449d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f5646a2a47e7dd012e9153417b4334c = $(`<div id="html_2f5646a2a47e7dd012e9153417b4334c" style="width: 100.0%; height: 100.0%;">FOLIO: 885385<br>FECHA: 2025-02-28 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 28</div>`)[0];
+                popup_363654cba5959986188e543afbea449d.setContent(html_2f5646a2a47e7dd012e9153417b4334c);
+            
+        
+
+        marker_927563c1242c09e36d54d1898ec54781.bindPopup(popup_363654cba5959986188e543afbea449d)
+        ;
+
+        
+    
+    
+            var marker_4eb7feba2130275214260539dec92e6a = L.marker(
+                [28.658955, -105.955787],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3f40d354f5ab357ef3b65435247bb516 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9058980b7fd82a1963b4de4b9e214111 = $(`<div id="html_9058980b7fd82a1963b4de4b9e214111" style="width: 100.0%; height: 100.0%;">FOLIO: 885580<br>FECHA: 2025-02-28 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 48</div>`)[0];
+                popup_3f40d354f5ab357ef3b65435247bb516.setContent(html_9058980b7fd82a1963b4de4b9e214111);
+            
+        
+
+        marker_4eb7feba2130275214260539dec92e6a.bindPopup(popup_3f40d354f5ab357ef3b65435247bb516)
+        ;
+
+        
+    
+    
+            var marker_3fd782e8b8ea3d40e48f8650f9a0bb31 = L.marker(
+                [28.701645, -106.10021],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ef736b5eb3d6bc6642dae84123f956b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5f6d3c2084775c4adbea5369aa71473 = $(`<div id="html_f5f6d3c2084775c4adbea5369aa71473" style="width: 100.0%; height: 100.0%;">FOLIO: 889791<br>FECHA: 2025-03-02 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 17</div>`)[0];
+                popup_ef736b5eb3d6bc6642dae84123f956b1.setContent(html_f5f6d3c2084775c4adbea5369aa71473);
+            
+        
+
+        marker_3fd782e8b8ea3d40e48f8650f9a0bb31.bindPopup(popup_ef736b5eb3d6bc6642dae84123f956b1)
+        ;
+
+        
+    
+    
+            var marker_b12996633fbbb8cdb15198f6527aa38f = L.marker(
+                [28.692081, -106.095387],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e5fa3a62f483b462f0845f15f42c44ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c046a04accaf1cf0afb56fbd9e8b1c4c = $(`<div id="html_c046a04accaf1cf0afb56fbd9e8b1c4c" style="width: 100.0%; height: 100.0%;">FOLIO: 893161<br>FECHA: 2025-03-03 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 18</div>`)[0];
+                popup_e5fa3a62f483b462f0845f15f42c44ca.setContent(html_c046a04accaf1cf0afb56fbd9e8b1c4c);
+            
+        
+
+        marker_b12996633fbbb8cdb15198f6527aa38f.bindPopup(popup_e5fa3a62f483b462f0845f15f42c44ca)
+        ;
+
+        
+    
+    
+            var marker_42bd19eb14f23a178ec72c75670cc5c8 = L.marker(
+                [28.706172, -106.146392],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_33b15a0a7ff008b9323c397eb88f7a11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ef9e44efcff682ea8310412895d69af = $(`<div id="html_7ef9e44efcff682ea8310412895d69af" style="width: 100.0%; height: 100.0%;">FOLIO: 907331<br>FECHA: 2025-03-03 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 11</div>`)[0];
+                popup_33b15a0a7ff008b9323c397eb88f7a11.setContent(html_7ef9e44efcff682ea8310412895d69af);
+            
+        
+
+        marker_42bd19eb14f23a178ec72c75670cc5c8.bindPopup(popup_33b15a0a7ff008b9323c397eb88f7a11)
+        ;
+
+        
+    
+    
+            var marker_efab0e08350be0bd0e3e9a326a069d7e = L.marker(
+                [28.651834, -106.031655],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f865b1e63fd54730a89f692de251adb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a518522d678771c6cce95e0aed459717 = $(`<div id="html_a518522d678771c6cce95e0aed459717" style="width: 100.0%; height: 100.0%;">FOLIO: 891225<br>FECHA: 2025-03-03 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 50</div>`)[0];
+                popup_f865b1e63fd54730a89f692de251adb2.setContent(html_a518522d678771c6cce95e0aed459717);
+            
+        
+
+        marker_efab0e08350be0bd0e3e9a326a069d7e.bindPopup(popup_f865b1e63fd54730a89f692de251adb2)
+        ;
+
+        
+    
+    
+            var marker_5b0785bc2f393c721296498a3254cc0b = L.marker(
+                [28.726124, -106.120715],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5724c531088e05ea07015bdb6d968648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95ba2107f3c8a9618bf46606f793454f = $(`<div id="html_95ba2107f3c8a9618bf46606f793454f" style="width: 100.0%; height: 100.0%;">FOLIO: 896253<br>FECHA: 2025-03-05 00:00:00<br>HORA: 13<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 13</div>`)[0];
+                popup_5724c531088e05ea07015bdb6d968648.setContent(html_95ba2107f3c8a9618bf46606f793454f);
+            
+        
+
+        marker_5b0785bc2f393c721296498a3254cc0b.bindPopup(popup_5724c531088e05ea07015bdb6d968648)
+        ;
+
+        
+    
+    
+            var marker_56735e4ed457073468761e85f6b1504b = L.marker(
+                [28.738998, -106.136479],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3ca57aec2e41dd4edc0d3bc99f5e52f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3879c4cb830d733420e5343bcdc64ada = $(`<div id="html_3879c4cb830d733420e5343bcdc64ada" style="width: 100.0%; height: 100.0%;">FOLIO: 897748<br>FECHA: 2025-03-06 00:00:00<br>HORA: 8<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_3ca57aec2e41dd4edc0d3bc99f5e52f1.setContent(html_3879c4cb830d733420e5343bcdc64ada);
+            
+        
+
+        marker_56735e4ed457073468761e85f6b1504b.bindPopup(popup_3ca57aec2e41dd4edc0d3bc99f5e52f1)
+        ;
+
+        
+    
+    
+            var marker_6d270a69a55c974894e938fce2ca3713 = L.marker(
+                [28.606135, -106.038007],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_00a99c226c0cbf00700b332bad3c578f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6c9bf4f6633986394eed9fee7226af7 = $(`<div id="html_a6c9bf4f6633986394eed9fee7226af7" style="width: 100.0%; height: 100.0%;">FOLIO: 907164<br>FECHA: 2025-03-10 00:00:00<br>HORA: 13<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_00a99c226c0cbf00700b332bad3c578f.setContent(html_a6c9bf4f6633986394eed9fee7226af7);
+            
+        
+
+        marker_6d270a69a55c974894e938fce2ca3713.bindPopup(popup_00a99c226c0cbf00700b332bad3c578f)
+        ;
+
+        
+    
+    
+            var marker_fca15608fe3885dd18bc15f8ddb6cec6 = L.marker(
+                [28.625372, -106.049548],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3952926b074b5090006ad5e7506eba75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da67465c6e8a60603411d4b0c09953c6 = $(`<div id="html_da67465c6e8a60603411d4b0c09953c6" style="width: 100.0%; height: 100.0%;">FOLIO: 906193<br>FECHA: 2025-03-10 00:00:00<br>HORA: 8<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 72</div>`)[0];
+                popup_3952926b074b5090006ad5e7506eba75.setContent(html_da67465c6e8a60603411d4b0c09953c6);
+            
+        
+
+        marker_fca15608fe3885dd18bc15f8ddb6cec6.bindPopup(popup_3952926b074b5090006ad5e7506eba75)
+        ;
+
+        
+    
+    
+            var marker_c14e4151a794f602a8adfb6009366831 = L.marker(
+                [28.670615, -106.128021],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_cb4e6015c2a7c76efb7b7a238f687723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1af36f03f0c6bfba4bcf9b8b06e1a110 = $(`<div id="html_1af36f03f0c6bfba4bcf9b8b06e1a110" style="width: 100.0%; height: 100.0%;">FOLIO: 910907<br>FECHA: 2025-03-12 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 21</div>`)[0];
+                popup_cb4e6015c2a7c76efb7b7a238f687723.setContent(html_1af36f03f0c6bfba4bcf9b8b06e1a110);
+            
+        
+
+        marker_c14e4151a794f602a8adfb6009366831.bindPopup(popup_cb4e6015c2a7c76efb7b7a238f687723)
+        ;
+
+        
+    
+    
+            var marker_6450d98a7cb0f2f84dc76165580d952a = L.marker(
+                [28.598884, -106.018224],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c6a968016fceb22b10a2b612b098e04b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75b6972f6864afbd092ae3a40490316d = $(`<div id="html_75b6972f6864afbd092ae3a40490316d" style="width: 100.0%; height: 100.0%;">FOLIO: 924977<br>FECHA: 2025-03-18 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_c6a968016fceb22b10a2b612b098e04b.setContent(html_75b6972f6864afbd092ae3a40490316d);
+            
+        
+
+        marker_6450d98a7cb0f2f84dc76165580d952a.bindPopup(popup_c6a968016fceb22b10a2b612b098e04b)
+        ;
+
+        
+    
+    
+            var marker_16e51ceeb9f40912085ce01fadb04d11 = L.marker(
+                [28.653505, -106.069319],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c168fcb832d3adc709725863ddce386b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_963c368e35adb1cb25c280d09fb4da59 = $(`<div id="html_963c368e35adb1cb25c280d09fb4da59" style="width: 100.0%; height: 100.0%;">FOLIO: 927345<br>FECHA: 2025-03-19 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 26</div>`)[0];
+                popup_c168fcb832d3adc709725863ddce386b.setContent(html_963c368e35adb1cb25c280d09fb4da59);
+            
+        
+
+        marker_16e51ceeb9f40912085ce01fadb04d11.bindPopup(popup_c168fcb832d3adc709725863ddce386b)
+        ;
+
+        
+    
+    
+            var marker_debb8b9d5ecab037355f982dc9a1f9d5 = L.marker(
+                [28.683646, -106.10007],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_6b672568c7924b752b7b2383d4102024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf1dd55e77a005997d0826120c947e2 = $(`<div id="html_eaf1dd55e77a005997d0826120c947e2" style="width: 100.0%; height: 100.0%;">FOLIO: 929557<br>FECHA: 2025-03-20 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 24</div>`)[0];
+                popup_6b672568c7924b752b7b2383d4102024.setContent(html_eaf1dd55e77a005997d0826120c947e2);
+            
+        
+
+        marker_debb8b9d5ecab037355f982dc9a1f9d5.bindPopup(popup_6b672568c7924b752b7b2383d4102024)
+        ;
+
+        
+    
+    
+            var marker_fdddce7a58369563eeab5d44bd44a9c8 = L.marker(
+                [28.631529, -106.119767],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0633c1b82189fcaefb827136607b45f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4125cc5bd97db84ebf1cfcd75b01313 = $(`<div id="html_a4125cc5bd97db84ebf1cfcd75b01313" style="width: 100.0%; height: 100.0%;">FOLIO: 939304<br>FECHA: 2025-03-24 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 33</div>`)[0];
+                popup_0633c1b82189fcaefb827136607b45f1.setContent(html_a4125cc5bd97db84ebf1cfcd75b01313);
+            
+        
+
+        marker_fdddce7a58369563eeab5d44bd44a9c8.bindPopup(popup_0633c1b82189fcaefb827136607b45f1)
+        ;
+
+        
+    
+    
+            var marker_abbfbf14ec7fe2034cdf3ed8fbe81808 = L.marker(
+                [28.732172, -106.119548],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_76d87be79881eafd8876be6a131db8ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b011552d09960f235c88cd820d118567 = $(`<div id="html_b011552d09960f235c88cd820d118567" style="width: 100.0%; height: 100.0%;">FOLIO: 938645<br>FECHA: 2025-03-24 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 13</div>`)[0];
+                popup_76d87be79881eafd8876be6a131db8ac.setContent(html_b011552d09960f235c88cd820d118567);
+            
+        
+
+        marker_abbfbf14ec7fe2034cdf3ed8fbe81808.bindPopup(popup_76d87be79881eafd8876be6a131db8ac)
+        ;
+
+        
+    
+    
+            var marker_a5e41d0faf4a2bac7dc6b7920607886c = L.marker(
+                [28.680003, -106.110545],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_611e028a2c44d4614fb7b0f730859b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f1a2f5560fe57f63f14d0dd592ed6a = $(`<div id="html_b4f1a2f5560fe57f63f14d0dd592ed6a" style="width: 100.0%; height: 100.0%;">FOLIO: 939717<br>FECHA: 2025-03-24 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 19</div>`)[0];
+                popup_611e028a2c44d4614fb7b0f730859b2a.setContent(html_b4f1a2f5560fe57f63f14d0dd592ed6a);
+            
+        
+
+        marker_a5e41d0faf4a2bac7dc6b7920607886c.bindPopup(popup_611e028a2c44d4614fb7b0f730859b2a)
+        ;
+
+        
+    
+    
+            var marker_fa6f6da80e8ceee6d9bb0a8c271511e6 = L.marker(
+                [28.659752, -106.005618],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9f57c7034a7385b514a681818cb93617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_904367949ab2b9822556653b56681943 = $(`<div id="html_904367949ab2b9822556653b56681943" style="width: 100.0%; height: 100.0%;">FOLIO: 946407<br>FECHA: 2025-03-27 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_9f57c7034a7385b514a681818cb93617.setContent(html_904367949ab2b9822556653b56681943);
+            
+        
+
+        marker_fa6f6da80e8ceee6d9bb0a8c271511e6.bindPopup(popup_9f57c7034a7385b514a681818cb93617)
+        ;
+
+        
+    
+    
+            var marker_b9cc14881aafd85f2783268b8dd46737 = L.marker(
+                [28.719183, -106.148213],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_fbe6677a08e09e6912d40709cb3cf506 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_621e1a234ab88919619d85490509e6bd = $(`<div id="html_621e1a234ab88919619d85490509e6bd" style="width: 100.0%; height: 100.0%;">FOLIO: 945150<br>FECHA: 2025-03-27 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 12</div>`)[0];
+                popup_fbe6677a08e09e6912d40709cb3cf506.setContent(html_621e1a234ab88919619d85490509e6bd);
+            
+        
+
+        marker_b9cc14881aafd85f2783268b8dd46737.bindPopup(popup_fbe6677a08e09e6912d40709cb3cf506)
+        ;
+
+        
+    
+    
+            var marker_51976816ec395d47dd22232bc5f88fd1 = L.marker(
+                [28.673173, -106.025868],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_13f2e194bd03351035f5457dfe18548d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b895e703a56183f2e70046471f1d7a = $(`<div id="html_45b895e703a56183f2e70046471f1d7a" style="width: 100.0%; height: 100.0%;">FOLIO: 946636<br>FECHA: 2025-03-28 00:00:00<br>HORA: 4<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 46</div>`)[0];
+                popup_13f2e194bd03351035f5457dfe18548d.setContent(html_45b895e703a56183f2e70046471f1d7a);
+            
+        
+
+        marker_51976816ec395d47dd22232bc5f88fd1.bindPopup(popup_13f2e194bd03351035f5457dfe18548d)
+        ;
+
+        
+    
+    
+            var marker_1931090895781f907aa5c17a7d838349 = L.marker(
+                [28.660168, -106.107902],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ea4ca4f99ac5f325deed82c3c16366a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9c42ee42e4d0c4e78875ab0459fb238 = $(`<div id="html_f9c42ee42e4d0c4e78875ab0459fb238" style="width: 100.0%; height: 100.0%;">FOLIO: 954732<br>FECHA: 2025-03-31 00:00:00<br>HORA: 9<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 23</div>`)[0];
+                popup_ea4ca4f99ac5f325deed82c3c16366a8.setContent(html_f9c42ee42e4d0c4e78875ab0459fb238);
+            
+        
+
+        marker_1931090895781f907aa5c17a7d838349.bindPopup(popup_ea4ca4f99ac5f325deed82c3c16366a8)
+        ;
+
+        
+    
+    
+            var marker_a905013be6e30e30bf0998f5de187fa9 = L.marker(
+                [28.635238, -106.064752],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9bf46a5cc82624fa66d63d8e321366bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec83dda17d137623948e86894df6ed60 = $(`<div id="html_ec83dda17d137623948e86894df6ed60" style="width: 100.0%; height: 100.0%;">FOLIO: 956792<br>FECHA: 2025-04-01 00:00:00<br>HORA: 2<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Ángel<br>CUADRANTE: 39</div>`)[0];
+                popup_9bf46a5cc82624fa66d63d8e321366bc.setContent(html_ec83dda17d137623948e86894df6ed60);
+            
+        
+
+        marker_a905013be6e30e30bf0998f5de187fa9.bindPopup(popup_9bf46a5cc82624fa66d63d8e321366bc)
+        ;
+
+        
+    
+    
+            var marker_141a3a08491c18526a5c33912cb48b0a = L.marker(
+                [28.610922, -106.017379],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_11c96cd2a9353fd8d3dc96821e67dd8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55bb652758045c272c9db895af04f26 = $(`<div id="html_f55bb652758045c272c9db895af04f26" style="width: 100.0%; height: 100.0%;">FOLIO: 962960<br>FECHA: 2025-04-03 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_11c96cd2a9353fd8d3dc96821e67dd8f.setContent(html_f55bb652758045c272c9db895af04f26);
+            
+        
+
+        marker_141a3a08491c18526a5c33912cb48b0a.bindPopup(popup_11c96cd2a9353fd8d3dc96821e67dd8f)
+        ;
+
+        
+    
+    
+            var marker_c40768cf5f8c8ca6fe0e1ca446078ddb = L.marker(
+                [28.680156, -106.120886],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_17d324b27007eede83c7e4796671a4c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a32346b1b599fd97e95aae0d93b91e1c = $(`<div id="html_a32346b1b599fd97e95aae0d93b91e1c" style="width: 100.0%; height: 100.0%;">FOLIO: 965646<br>FECHA: 2025-04-05 00:00:00<br>HORA: 2<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 19</div>`)[0];
+                popup_17d324b27007eede83c7e4796671a4c0.setContent(html_a32346b1b599fd97e95aae0d93b91e1c);
+            
+        
+
+        marker_c40768cf5f8c8ca6fe0e1ca446078ddb.bindPopup(popup_17d324b27007eede83c7e4796671a4c0)
+        ;
+
+        
+    
+    
+            var marker_a9feebe3094dd1ed0a2cc6e305c58609 = L.marker(
+                [28.596884, -106.04027],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_cd6f9f85808c3d334d8dce3e3bc1cf3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7e4c1f180b39a415ad05460e44e55cc = $(`<div id="html_f7e4c1f180b39a415ad05460e44e55cc" style="width: 100.0%; height: 100.0%;">FOLIO: 967398<br>FECHA: 2025-04-05 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_cd6f9f85808c3d334d8dce3e3bc1cf3c.setContent(html_f7e4c1f180b39a415ad05460e44e55cc);
+            
+        
+
+        marker_a9feebe3094dd1ed0a2cc6e305c58609.bindPopup(popup_cd6f9f85808c3d334d8dce3e3bc1cf3c)
+        ;
+
+        
+    
+    
+            var marker_774514ddb2ceb537aa723d7c2a614856 = L.marker(
+                [28.64385, -105.986092],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3faa6be368bed3ff831818c2bd099e45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6abc008c6a0552c0eb447f11351cb2d9 = $(`<div id="html_6abc008c6a0552c0eb447f11351cb2d9" style="width: 100.0%; height: 100.0%;">FOLIO: 968222<br>FECHA: 2025-04-06 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 53</div>`)[0];
+                popup_3faa6be368bed3ff831818c2bd099e45.setContent(html_6abc008c6a0552c0eb447f11351cb2d9);
+            
+        
+
+        marker_774514ddb2ceb537aa723d7c2a614856.bindPopup(popup_3faa6be368bed3ff831818c2bd099e45)
+        ;
+
+        
+    
+    
+            var marker_d63d8cb9e30ff4f3cd98d3aede70e2a3 = L.marker(
+                [28.673052, -105.986372],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_d83f8e82e38897eefd62cf6d3240c4ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d976078b6eed72ac509e193060f08a6a = $(`<div id="html_d976078b6eed72ac509e193060f08a6a" style="width: 100.0%; height: 100.0%;">FOLIO: 973815<br>FECHA: 2025-04-09 00:00:00<br>HORA: 3<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_d83f8e82e38897eefd62cf6d3240c4ec.setContent(html_d976078b6eed72ac509e193060f08a6a);
+            
+        
+
+        marker_d63d8cb9e30ff4f3cd98d3aede70e2a3.bindPopup(popup_d83f8e82e38897eefd62cf6d3240c4ec)
+        ;
+
+        
+    
+    
+            var marker_aa02ac5a99666f3314aeefe132e142fc = L.marker(
+                [28.734934, -106.131956],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a8130f582c4a69ffeb8b5e5e69b7587c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_909993ae0925d9a0d3e5d3e815439601 = $(`<div id="html_909993ae0925d9a0d3e5d3e815439601" style="width: 100.0%; height: 100.0%;">FOLIO: 975329<br>FECHA: 2025-04-09 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_a8130f582c4a69ffeb8b5e5e69b7587c.setContent(html_909993ae0925d9a0d3e5d3e815439601);
+            
+        
+
+        marker_aa02ac5a99666f3314aeefe132e142fc.bindPopup(popup_a8130f582c4a69ffeb8b5e5e69b7587c)
+        ;
+
+        
+    
+    
+            var marker_09251bb6dbea1587b1b55f32191e132a = L.marker(
+                [28.667353, -106.078098],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_456fe7a540859ebce918c9c2e9607dbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4d374929428f41fa76735b40517a969 = $(`<div id="html_f4d374929428f41fa76735b40517a969" style="width: 100.0%; height: 100.0%;">FOLIO: 976469<br>FECHA: 2025-04-10 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 26</div>`)[0];
+                popup_456fe7a540859ebce918c9c2e9607dbb.setContent(html_f4d374929428f41fa76735b40517a969);
+            
+        
+
+        marker_09251bb6dbea1587b1b55f32191e132a.bindPopup(popup_456fe7a540859ebce918c9c2e9607dbb)
+        ;
+
+        
+    
+    
+            var marker_6ff409a2aad8315c0bcba3b70dc30e04 = L.marker(
+                [28.584405, -106.040338],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_1a10592ea7ac634f802ad47df1dc2e1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f0fc46d4d5431fa9b1b4e73fa30a6fd = $(`<div id="html_6f0fc46d4d5431fa9b1b4e73fa30a6fd" style="width: 100.0%; height: 100.0%;">FOLIO: 977566<br>FECHA: 2025-04-10 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_1a10592ea7ac634f802ad47df1dc2e1d.setContent(html_6f0fc46d4d5431fa9b1b4e73fa30a6fd);
+            
+        
+
+        marker_6ff409a2aad8315c0bcba3b70dc30e04.bindPopup(popup_1a10592ea7ac634f802ad47df1dc2e1d)
+        ;
+
+        
+    
+    
+            var marker_a004cae5251dee705133bce86a61ca86 = L.marker(
+                [28.673811, -106.13482],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_64f3faeab916801575183f0ea75e02f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cc1dfc4802ab47f669133ef9b8c79f1 = $(`<div id="html_3cc1dfc4802ab47f669133ef9b8c79f1" style="width: 100.0%; height: 100.0%;">FOLIO: 982918<br>FECHA: 2025-04-12 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 28</div>`)[0];
+                popup_64f3faeab916801575183f0ea75e02f8.setContent(html_3cc1dfc4802ab47f669133ef9b8c79f1);
+            
+        
+
+        marker_a004cae5251dee705133bce86a61ca86.bindPopup(popup_64f3faeab916801575183f0ea75e02f8)
+        ;
+
+        
+    
+    
+            var marker_b8c6b1f3e4f7ddce9e69dec8b5b924e1 = L.marker(
+                [28.653959, -106.10828],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a4eb770129e1a7cadee16f5d59beea94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15cd549cfe91cec9d79722ca094a79c2 = $(`<div id="html_15cd549cfe91cec9d79722ca094a79c2" style="width: 100.0%; height: 100.0%;">FOLIO: 983808<br>FECHA: 2025-04-13 00:00:00<br>HORA: 5<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 31</div>`)[0];
+                popup_a4eb770129e1a7cadee16f5d59beea94.setContent(html_15cd549cfe91cec9d79722ca094a79c2);
+            
+        
+
+        marker_b8c6b1f3e4f7ddce9e69dec8b5b924e1.bindPopup(popup_a4eb770129e1a7cadee16f5d59beea94)
+        ;
+
+        
+    
+    
+            var marker_e84d284d953393f5cc36b9436421e681 = L.marker(
+                [28.608987, -106.072306],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7069d71a9691f4e1d023bd1eefadad90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1f5ad89b3ebbfd64576604e5507186f = $(`<div id="html_b1f5ad89b3ebbfd64576604e5507186f" style="width: 100.0%; height: 100.0%;">FOLIO: 985221<br>FECHA: 2025-04-13 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 74</div>`)[0];
+                popup_7069d71a9691f4e1d023bd1eefadad90.setContent(html_b1f5ad89b3ebbfd64576604e5507186f);
+            
+        
+
+        marker_e84d284d953393f5cc36b9436421e681.bindPopup(popup_7069d71a9691f4e1d023bd1eefadad90)
+        ;
+
+        
+    
+    
+            var marker_2d28e5f9372d752ef02a914b4e10bd23 = L.marker(
+                [28.631959, -106.083553],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c2c73abf830b8bb775a07d391baab124 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a4eed0a1c90bb11ebd5068ac42b49f5 = $(`<div id="html_9a4eed0a1c90bb11ebd5068ac42b49f5" style="width: 100.0%; height: 100.0%;">FOLIO: 986759<br>FECHA: 2025-04-14 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 27</div>`)[0];
+                popup_c2c73abf830b8bb775a07d391baab124.setContent(html_9a4eed0a1c90bb11ebd5068ac42b49f5);
+            
+        
+
+        marker_2d28e5f9372d752ef02a914b4e10bd23.bindPopup(popup_c2c73abf830b8bb775a07d391baab124)
+        ;
+
+        
+    
+    
+            var marker_1bdefd001b3619bd78f78a54d0bc322d = L.marker(
+                [28.68766, -106.141029],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_854ca9faa5f6fb10fec21af45748f4e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_723877c634090f9b84572939ba9c84ab = $(`<div id="html_723877c634090f9b84572939ba9c84ab" style="width: 100.0%; height: 100.0%;">FOLIO: 991367<br>FECHA: 2025-04-16 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 28</div>`)[0];
+                popup_854ca9faa5f6fb10fec21af45748f4e7.setContent(html_723877c634090f9b84572939ba9c84ab);
+            
+        
+
+        marker_1bdefd001b3619bd78f78a54d0bc322d.bindPopup(popup_854ca9faa5f6fb10fec21af45748f4e7)
+        ;
+
+        
+    
+    
+            var marker_e96875e62f4a85ca257be7db478ab752 = L.marker(
+                [28.662379, -105.949719],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_90ee5def431dd09f392f4bbe3f56c128 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_805b2e621a5c5b5112b3dd1e2b1ac2aa = $(`<div id="html_805b2e621a5c5b5112b3dd1e2b1ac2aa" style="width: 100.0%; height: 100.0%;">FOLIO: 993160<br>FECHA: 2025-04-16 00:00:00<br>HORA: 2<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 48</div>`)[0];
+                popup_90ee5def431dd09f392f4bbe3f56c128.setContent(html_805b2e621a5c5b5112b3dd1e2b1ac2aa);
+            
+        
+
+        marker_e96875e62f4a85ca257be7db478ab752.bindPopup(popup_90ee5def431dd09f392f4bbe3f56c128)
+        ;
+
+        
+    
+    
+            var marker_95c73a350e323190c95a4d13629cda7b = L.marker(
+                [28.706258, -106.110699],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_97bce0fc6b4309591193bb23716a2de2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7e788c7ef9326aaa772e72656feeb7b = $(`<div id="html_d7e788c7ef9326aaa772e72656feeb7b" style="width: 100.0%; height: 100.0%;">FOLIO: 993401<br>FECHA: 2025-04-17 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 17</div>`)[0];
+                popup_97bce0fc6b4309591193bb23716a2de2.setContent(html_d7e788c7ef9326aaa772e72656feeb7b);
+            
+        
+
+        marker_95c73a350e323190c95a4d13629cda7b.bindPopup(popup_97bce0fc6b4309591193bb23716a2de2)
+        ;
+
+        
+    
+    
+            var marker_24d416e0976079d05fbc7089b3c7e7cc = L.marker(
+                [28.670388, -105.978768],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_82baafc60eabd1c8996e3a46eed36db8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_232238839bf058e3cb7d19023b8cd014 = $(`<div id="html_232238839bf058e3cb7d19023b8cd014" style="width: 100.0%; height: 100.0%;">FOLIO: 995858<br>FECHA: 2025-04-18 00:00:00<br>HORA: 5<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_82baafc60eabd1c8996e3a46eed36db8.setContent(html_232238839bf058e3cb7d19023b8cd014);
+            
+        
+
+        marker_24d416e0976079d05fbc7089b3c7e7cc.bindPopup(popup_82baafc60eabd1c8996e3a46eed36db8)
+        ;
+
+        
+    
+    
+            var marker_d3ee833f3ed73a84e17d09f303c1017d = L.marker(
+                [28.63181, -106.082999],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0a005c3245945f07f6a29c870fbfdb45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c6fbfd801c1260fbf36fd2f9e5e41f7 = $(`<div id="html_1c6fbfd801c1260fbf36fd2f9e5e41f7" style="width: 100.0%; height: 100.0%;">FOLIO: 996850<br>FECHA: 2025-04-18 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 69</div>`)[0];
+                popup_0a005c3245945f07f6a29c870fbfdb45.setContent(html_1c6fbfd801c1260fbf36fd2f9e5e41f7);
+            
+        
+
+        marker_d3ee833f3ed73a84e17d09f303c1017d.bindPopup(popup_0a005c3245945f07f6a29c870fbfdb45)
+        ;
+
+        
+    
+    
+            var marker_408e72636a6367ee9049bd413d4a4499 = L.marker(
+                [28.605676, -106.066749],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3d627e85a5142dbb285e0bce2b9fea39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3ee26767055458219eddcd7adbd017c = $(`<div id="html_e3ee26767055458219eddcd7adbd017c" style="width: 100.0%; height: 100.0%;">FOLIO: 999810<br>FECHA: 2025-04-19 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 75</div>`)[0];
+                popup_3d627e85a5142dbb285e0bce2b9fea39.setContent(html_e3ee26767055458219eddcd7adbd017c);
+            
+        
+
+        marker_408e72636a6367ee9049bd413d4a4499.bindPopup(popup_3d627e85a5142dbb285e0bce2b9fea39)
+        ;
+
+        
+    
+    
+            var marker_fe81b7d75469d281f75eb6949bc103f3 = L.marker(
+                [28.678291, -106.127411],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_b4d4db08d11e48dab145cde8ddb39871 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dabf4808e702794f021f08976f5dcece = $(`<div id="html_dabf4808e702794f021f08976f5dcece" style="width: 100.0%; height: 100.0%;">FOLIO: 1003469<br>FECHA: 2025-04-21 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 19</div>`)[0];
+                popup_b4d4db08d11e48dab145cde8ddb39871.setContent(html_dabf4808e702794f021f08976f5dcece);
+            
+        
+
+        marker_fe81b7d75469d281f75eb6949bc103f3.bindPopup(popup_b4d4db08d11e48dab145cde8ddb39871)
+        ;
+
+        
+    
+    
+            var marker_8b7bcd0c9902fcfabe05d5309f3282ff = L.marker(
+                [28.626328, -106.052151],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_33fb33556d784d1918ce3d98cb021745 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_774d020b6f86f2364799c33c4e36c61c = $(`<div id="html_774d020b6f86f2364799c33c4e36c61c" style="width: 100.0%; height: 100.0%;">FOLIO: 1003566<br>FECHA: 2025-04-21 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 70</div>`)[0];
+                popup_33fb33556d784d1918ce3d98cb021745.setContent(html_774d020b6f86f2364799c33c4e36c61c);
+            
+        
+
+        marker_8b7bcd0c9902fcfabe05d5309f3282ff.bindPopup(popup_33fb33556d784d1918ce3d98cb021745)
+        ;
+
+        
+    
+    
+            var marker_13269846544fecd1a568ee521c9f7374 = L.marker(
+                [28.740151, -106.133377],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_302f4f795cdd4c970ead5cd28d5314b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_042daeeefca08abed8692a8a929cd422 = $(`<div id="html_042daeeefca08abed8692a8a929cd422" style="width: 100.0%; height: 100.0%;">FOLIO: 1004186<br>FECHA: 2025-04-21 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_302f4f795cdd4c970ead5cd28d5314b8.setContent(html_042daeeefca08abed8692a8a929cd422);
+            
+        
+
+        marker_13269846544fecd1a568ee521c9f7374.bindPopup(popup_302f4f795cdd4c970ead5cd28d5314b8)
+        ;
+
+        
+    
+    
+            var marker_aade92085bfb43533239fa0cc9b5c450 = L.marker(
+                [28.704457, -106.124727],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_af60dbe90fb8ddb561e0f692ce94fda3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb2c496eec5e525184afb84f46493944 = $(`<div id="html_bb2c496eec5e525184afb84f46493944" style="width: 100.0%; height: 100.0%;">FOLIO: 1008359<br>FECHA: 2025-04-23 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 17</div>`)[0];
+                popup_af60dbe90fb8ddb561e0f692ce94fda3.setContent(html_bb2c496eec5e525184afb84f46493944);
+            
+        
+
+        marker_aade92085bfb43533239fa0cc9b5c450.bindPopup(popup_af60dbe90fb8ddb561e0f692ce94fda3)
+        ;
+
+        
+    
+    
+            var marker_a43a628fe43b64203de3cc96352a610e = L.marker(
+                [28.651012, -106.037818],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ca6e0de73d719d128fef8f540f562357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebd5ba9c22be3af0eb29be46c07cfa87 = $(`<div id="html_ebd5ba9c22be3af0eb29be46c07cfa87" style="width: 100.0%; height: 100.0%;">FOLIO: 1009823<br>FECHA: 2025-04-24 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 50</div>`)[0];
+                popup_ca6e0de73d719d128fef8f540f562357.setContent(html_ebd5ba9c22be3af0eb29be46c07cfa87);
+            
+        
+
+        marker_a43a628fe43b64203de3cc96352a610e.bindPopup(popup_ca6e0de73d719d128fef8f540f562357)
+        ;
+
+        
+    
+    
+            var marker_ab316333908cd4bdc70a8e92d1fb0e8e = L.marker(
+                [28.59289, -106.00558],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_75018447b5b9f2b58b5187c75e0ea0b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16fe81a76fbcce0178a3140ca3720272 = $(`<div id="html_16fe81a76fbcce0178a3140ca3720272" style="width: 100.0%; height: 100.0%;">FOLIO: 1010431<br>FECHA: 2025-04-24 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_75018447b5b9f2b58b5187c75e0ea0b0.setContent(html_16fe81a76fbcce0178a3140ca3720272);
+            
+        
+
+        marker_ab316333908cd4bdc70a8e92d1fb0e8e.bindPopup(popup_75018447b5b9f2b58b5187c75e0ea0b0)
+        ;
+
+        
+    
+    
+            var marker_10586db598d00e8b54964a71b76dde85 = L.marker(
+                [28.598848, -106.033985],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_513af4b1fce96ee1a7f25f81a5570e3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_319cdcd680ad882eebd268769899c033 = $(`<div id="html_319cdcd680ad882eebd268769899c033" style="width: 100.0%; height: 100.0%;">FOLIO: 1010454<br>FECHA: 2025-04-24 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_513af4b1fce96ee1a7f25f81a5570e3c.setContent(html_319cdcd680ad882eebd268769899c033);
+            
+        
+
+        marker_10586db598d00e8b54964a71b76dde85.bindPopup(popup_513af4b1fce96ee1a7f25f81a5570e3c)
+        ;
+
+        
+    
+    
+            var marker_fb88f2e8ba59ed3046dbf50d5087eea7 = L.marker(
+                [28.663294, -105.954707],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_36d4074765b6dcf6ee32a8cea88a6d1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ffb379534d83afd94f7cfdea2aeb1ca = $(`<div id="html_9ffb379534d83afd94f7cfdea2aeb1ca" style="width: 100.0%; height: 100.0%;">FOLIO: 1010457<br>FECHA: 2025-04-24 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 48</div>`)[0];
+                popup_36d4074765b6dcf6ee32a8cea88a6d1a.setContent(html_9ffb379534d83afd94f7cfdea2aeb1ca);
+            
+        
+
+        marker_fb88f2e8ba59ed3046dbf50d5087eea7.bindPopup(popup_36d4074765b6dcf6ee32a8cea88a6d1a)
+        ;
+
+        
+    
+    
+            var marker_1585b76a50f453b2591a671b7b01553f = L.marker(
+                [28.627723, -106.054609],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_490dbe19cac8574a0a30e0c79dbc543d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a5e4a0e0bb120b0e29b475f85caa514 = $(`<div id="html_3a5e4a0e0bb120b0e29b475f85caa514" style="width: 100.0%; height: 100.0%;">FOLIO: 1016564<br>FECHA: 2025-04-27 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 70</div>`)[0];
+                popup_490dbe19cac8574a0a30e0c79dbc543d.setContent(html_3a5e4a0e0bb120b0e29b475f85caa514);
+            
+        
+
+        marker_1585b76a50f453b2591a671b7b01553f.bindPopup(popup_490dbe19cac8574a0a30e0c79dbc543d)
+        ;
+
+        
+    
+    
+            var marker_eac179ef378edc2f3e083926dbc6185d = L.marker(
+                [28.635809, -106.085528],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0f324dde5c2ff19dc4ebf79d648150a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89af14ac99cf46010cd35e2b973be108 = $(`<div id="html_89af14ac99cf46010cd35e2b973be108" style="width: 100.0%; height: 100.0%;">FOLIO: 1026520<br>FECHA: 2025-05-01 00:00:00<br>HORA: 13<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 27</div>`)[0];
+                popup_0f324dde5c2ff19dc4ebf79d648150a7.setContent(html_89af14ac99cf46010cd35e2b973be108);
+            
+        
+
+        marker_eac179ef378edc2f3e083926dbc6185d.bindPopup(popup_0f324dde5c2ff19dc4ebf79d648150a7)
+        ;
+
+        
+    
+    
+            var marker_0e2dda5003a07a8f393c6b796f0a99ea = L.marker(
+                [28.70683, -106.089424],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7948f2532666a8cd6405ab31890b7694 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82fa7fd2254587e9573d3fdacab396f9 = $(`<div id="html_82fa7fd2254587e9573d3fdacab396f9" style="width: 100.0%; height: 100.0%;">FOLIO: 1031799<br>FECHA: 2025-05-03 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 18</div>`)[0];
+                popup_7948f2532666a8cd6405ab31890b7694.setContent(html_82fa7fd2254587e9573d3fdacab396f9);
+            
+        
+
+        marker_0e2dda5003a07a8f393c6b796f0a99ea.bindPopup(popup_7948f2532666a8cd6405ab31890b7694)
+        ;
+
+        
+    
+    
+            var marker_4c04217b42dc436fa051640bd2e72943 = L.marker(
+                [28.665879, -106.01036],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_dd8e47a70a646b8f84a0b80a56ae50fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ed6250d191fbc00ff13e29e2e821db4 = $(`<div id="html_1ed6250d191fbc00ff13e29e2e821db4" style="width: 100.0%; height: 100.0%;">FOLIO: 1037665<br>FECHA: 2025-05-06 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 46</div>`)[0];
+                popup_dd8e47a70a646b8f84a0b80a56ae50fb.setContent(html_1ed6250d191fbc00ff13e29e2e821db4);
+            
+        
+
+        marker_4c04217b42dc436fa051640bd2e72943.bindPopup(popup_dd8e47a70a646b8f84a0b80a56ae50fb)
+        ;
+
+        
+    
+    
+            var marker_06f1791d26fcdffbb0573e547bdba172 = L.marker(
+                [28.63332, -106.083553],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_2f6fc1921aa8d4d927b296d70c9f9adb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_746d466ea22592552621e2dff924c51c = $(`<div id="html_746d466ea22592552621e2dff924c51c" style="width: 100.0%; height: 100.0%;">FOLIO: 1037345<br>FECHA: 2025-05-06 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 27</div>`)[0];
+                popup_2f6fc1921aa8d4d927b296d70c9f9adb.setContent(html_746d466ea22592552621e2dff924c51c);
+            
+        
+
+        marker_06f1791d26fcdffbb0573e547bdba172.bindPopup(popup_2f6fc1921aa8d4d927b296d70c9f9adb)
+        ;
+
+        
+    
+    
+            var marker_6544bf0deee672386b2ca5aaf3212941 = L.marker(
+                [28.602935, -106.021485],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5bacf2be3e8d194113f7a30810dbf39e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f2da2b7c4db3acf8d146f7d6e549893 = $(`<div id="html_7f2da2b7c4db3acf8d146f7d6e549893" style="width: 100.0%; height: 100.0%;">FOLIO: 1043166<br>FECHA: 2025-05-08 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_5bacf2be3e8d194113f7a30810dbf39e.setContent(html_7f2da2b7c4db3acf8d146f7d6e549893);
+            
+        
+
+        marker_6544bf0deee672386b2ca5aaf3212941.bindPopup(popup_5bacf2be3e8d194113f7a30810dbf39e)
+        ;
+
+        
+    
+    
+            var marker_f8be67ba6d704daf7f746d105ff563b1 = L.marker(
+                [28.633052, -106.002469],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_860baa28cf096d8932b867dae4de5252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc3a81c910a92845cb4bf9f65db5a228 = $(`<div id="html_bc3a81c910a92845cb4bf9f65db5a228" style="width: 100.0%; height: 100.0%;">FOLIO: 1045023<br>FECHA: 2025-05-09 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_860baa28cf096d8932b867dae4de5252.setContent(html_bc3a81c910a92845cb4bf9f65db5a228);
+            
+        
+
+        marker_f8be67ba6d704daf7f746d105ff563b1.bindPopup(popup_860baa28cf096d8932b867dae4de5252)
+        ;
+
+        
+    
+    
+            var marker_18141c015412a7419da7945507438e33 = L.marker(
+                [28.60178, -106.103276],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e60bc0c88327bd22d0a19f1ecae7f72e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e0f5206a31d68ef50ca3c41303ab90e = $(`<div id="html_0e0f5206a31d68ef50ca3c41303ab90e" style="width: 100.0%; height: 100.0%;">FOLIO: 1043440<br>FECHA: 2025-05-09 00:00:00<br>HORA: 1<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 67</div>`)[0];
+                popup_e60bc0c88327bd22d0a19f1ecae7f72e.setContent(html_0e0f5206a31d68ef50ca3c41303ab90e);
+            
+        
+
+        marker_18141c015412a7419da7945507438e33.bindPopup(popup_e60bc0c88327bd22d0a19f1ecae7f72e)
+        ;
+
+        
+    
+    
+            var marker_ee5b8eba30193cf91a7ac0d6ec631e56 = L.marker(
+                [28.672848, -106.100392],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ccb508d0a716c595d3b6b866a4643ef2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50665c1c7bb0effe2db5662bb2c10e97 = $(`<div id="html_50665c1c7bb0effe2db5662bb2c10e97" style="width: 100.0%; height: 100.0%;">FOLIO: 1047179<br>FECHA: 2025-05-10 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 22</div>`)[0];
+                popup_ccb508d0a716c595d3b6b866a4643ef2.setContent(html_50665c1c7bb0effe2db5662bb2c10e97);
+            
+        
+
+        marker_ee5b8eba30193cf91a7ac0d6ec631e56.bindPopup(popup_ccb508d0a716c595d3b6b866a4643ef2)
+        ;
+
+        
+    
+    
+            var marker_28bd52e408ba19f9f5d5751339efed8f = L.marker(
+                [28.60472, -105.995817],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f4581e51553cb80e9701061f50792d69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8886838515cc26f22e5ad32b6c100fe = $(`<div id="html_f8886838515cc26f22e5ad32b6c100fe" style="width: 100.0%; height: 100.0%;">FOLIO: 1054333<br>FECHA: 2025-05-14 00:00:00<br>HORA: 3<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 57</div>`)[0];
+                popup_f4581e51553cb80e9701061f50792d69.setContent(html_f8886838515cc26f22e5ad32b6c100fe);
+            
+        
+
+        marker_28bd52e408ba19f9f5d5751339efed8f.bindPopup(popup_f4581e51553cb80e9701061f50792d69)
+        ;
+
+        
+    
+    
+            var marker_f33743d838a246fd3885b41f10bce206 = L.marker(
+                [28.645041, -106.014203],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c9b8040a2447faf96734f2c2ee02164b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c101e0586058148d0e8a4799af2e448f = $(`<div id="html_c101e0586058148d0e8a4799af2e448f" style="width: 100.0%; height: 100.0%;">FOLIO: 1058602<br>FECHA: 2025-05-15 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 50</div>`)[0];
+                popup_c9b8040a2447faf96734f2c2ee02164b.setContent(html_c101e0586058148d0e8a4799af2e448f);
+            
+        
+
+        marker_f33743d838a246fd3885b41f10bce206.bindPopup(popup_c9b8040a2447faf96734f2c2ee02164b)
+        ;
+
+        
+    
+    
+            var marker_9337a2965a9846709b0eac789b4238a5 = L.marker(
+                [28.78534, -106.156395],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_128a8dbc17052a5aed9091e6abad8497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6896e1d339c50c9c9a8f3e7a69c2afc1 = $(`<div id="html_6896e1d339c50c9c9a8f3e7a69c2afc1" style="width: 100.0%; height: 100.0%;">FOLIO: 1060387<br>FECHA: 2025-05-16 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 4</div>`)[0];
+                popup_128a8dbc17052a5aed9091e6abad8497.setContent(html_6896e1d339c50c9c9a8f3e7a69c2afc1);
+            
+        
+
+        marker_9337a2965a9846709b0eac789b4238a5.bindPopup(popup_128a8dbc17052a5aed9091e6abad8497)
+        ;
+
+        
+    
+    
+            var marker_f4b17c173e680c76f833c54f67e65781 = L.marker(
+                [28.671235, -106.012088],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f4b0d378d2b995ee292df53fb563ed17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19f4bbd2f3bb4bc32bd94d1c1ab53006 = $(`<div id="html_19f4bbd2f3bb4bc32bd94d1c1ab53006" style="width: 100.0%; height: 100.0%;">FOLIO: 1065311<br>FECHA: 2025-05-18 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 46</div>`)[0];
+                popup_f4b0d378d2b995ee292df53fb563ed17.setContent(html_19f4bbd2f3bb4bc32bd94d1c1ab53006);
+            
+        
+
+        marker_f4b17c173e680c76f833c54f67e65781.bindPopup(popup_f4b0d378d2b995ee292df53fb563ed17)
+        ;
+
+        
+    
+    
+            var marker_16d1272bbac880455a6779af71e1e80a = L.marker(
+                [28.655904, -106.091336],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_009e2b6148aaf5b7d683174a335cd91e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_298c3c9a3e83ea07fff131640e024c2d = $(`<div id="html_298c3c9a3e83ea07fff131640e024c2d" style="width: 100.0%; height: 100.0%;">FOLIO: 1068559<br>FECHA: 2025-05-19 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 25</div>`)[0];
+                popup_009e2b6148aaf5b7d683174a335cd91e.setContent(html_298c3c9a3e83ea07fff131640e024c2d);
+            
+        
+
+        marker_16d1272bbac880455a6779af71e1e80a.bindPopup(popup_009e2b6148aaf5b7d683174a335cd91e)
+        ;
+
+        
+    
+    
+            var marker_11d1ae6903a3897ab929eb1b74113194 = L.marker(
+                [28.672714, -106.078614],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0fc89ab656fd7918a2ac29a06c8e3f9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e22eb82648b66404785221598633d8b = $(`<div id="html_9e22eb82648b66404785221598633d8b" style="width: 100.0%; height: 100.0%;">FOLIO: 1070839<br>FECHA: 2025-05-20 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 24</div>`)[0];
+                popup_0fc89ab656fd7918a2ac29a06c8e3f9f.setContent(html_9e22eb82648b66404785221598633d8b);
+            
+        
+
+        marker_11d1ae6903a3897ab929eb1b74113194.bindPopup(popup_0fc89ab656fd7918a2ac29a06c8e3f9f)
+        ;
+
+        
+    
+    
+            var marker_195443eee8ab348f556934e656c0a1ed = L.marker(
+                [28.641368, -106.070705],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_1cb991d4b43e9c8523788e4a81ecccb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b8903e9edc7f4d83d5f415efc3ef70d = $(`<div id="html_1b8903e9edc7f4d83d5f415efc3ef70d" style="width: 100.0%; height: 100.0%;">FOLIO: 1073117<br>FECHA: 2025-05-21 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Ángel<br>CUADRANTE: 39</div>`)[0];
+                popup_1cb991d4b43e9c8523788e4a81ecccb7.setContent(html_1b8903e9edc7f4d83d5f415efc3ef70d);
+            
+        
+
+        marker_195443eee8ab348f556934e656c0a1ed.bindPopup(popup_1cb991d4b43e9c8523788e4a81ecccb7)
+        ;
+
+        
+    
+    
+            var marker_091688cddf286fc34a76eecf7a07167a = L.marker(
+                [28.648622, -106.037273],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ec35240b94d1df94574510aa01057f02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d0d97e5083ddfbc09e298fb4f7217f8 = $(`<div id="html_7d0d97e5083ddfbc09e298fb4f7217f8" style="width: 100.0%; height: 100.0%;">FOLIO: 1075570<br>FECHA: 2025-05-22 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 51</div>`)[0];
+                popup_ec35240b94d1df94574510aa01057f02.setContent(html_7d0d97e5083ddfbc09e298fb4f7217f8);
+            
+        
+
+        marker_091688cddf286fc34a76eecf7a07167a.bindPopup(popup_ec35240b94d1df94574510aa01057f02)
+        ;
+
+        
+    
+    
+            var marker_0ec755d24bf52291af19a7d83e49a70e = L.marker(
+                [28.594152, -106.038815],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ad85e18e475e7a668310721632b00edd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33909d333d25fadf263643e2984c991a = $(`<div id="html_33909d333d25fadf263643e2984c991a" style="width: 100.0%; height: 100.0%;">FOLIO: 1078897<br>FECHA: 2025-05-23 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_ad85e18e475e7a668310721632b00edd.setContent(html_33909d333d25fadf263643e2984c991a);
+            
+        
+
+        marker_0ec755d24bf52291af19a7d83e49a70e.bindPopup(popup_ad85e18e475e7a668310721632b00edd)
+        ;
+
+        
+    
+    
+            var marker_99c9d4d5faf584d91213d0a641206f23 = L.marker(
+                [28.658545, -106.003477],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7811b8c873d5e2ed6f6157d38f5a86be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48bf412b09ed4b8b15f3f1411f4894fa = $(`<div id="html_48bf412b09ed4b8b15f3f1411f4894fa" style="width: 100.0%; height: 100.0%;">FOLIO: 1082234<br>FECHA: 2025-05-24 00:00:00<br>HORA: 0<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_7811b8c873d5e2ed6f6157d38f5a86be.setContent(html_48bf412b09ed4b8b15f3f1411f4894fa);
+            
+        
+
+        marker_99c9d4d5faf584d91213d0a641206f23.bindPopup(popup_7811b8c873d5e2ed6f6157d38f5a86be)
+        ;
+
+        
+    
+    
+            var marker_f3f3fa44c8622dcf83388a0e7745124d = L.marker(
+                [28.606665, -106.066035],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ff622f73053182b39370696187f8acf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dc5a43e1f347a3b880c4a4e34bfadbe = $(`<div id="html_4dc5a43e1f347a3b880c4a4e34bfadbe" style="width: 100.0%; height: 100.0%;">FOLIO: 1088043<br>FECHA: 2025-05-26 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 75</div>`)[0];
+                popup_ff622f73053182b39370696187f8acf2.setContent(html_4dc5a43e1f347a3b880c4a4e34bfadbe);
+            
+        
+
+        marker_f3f3fa44c8622dcf83388a0e7745124d.bindPopup(popup_ff622f73053182b39370696187f8acf2)
+        ;
+
+        
+    
+    
+            var marker_208c176d8f052ea7a5e736172c87a313 = L.marker(
+                [28.603102, -106.019043],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_bcbb48dd0a00010f7ede78de52f9ee31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22da21e454f7d615010ccec2670562f1 = $(`<div id="html_22da21e454f7d615010ccec2670562f1" style="width: 100.0%; height: 100.0%;">FOLIO: 1091784<br>FECHA: 2025-05-28 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_bcbb48dd0a00010f7ede78de52f9ee31.setContent(html_22da21e454f7d615010ccec2670562f1);
+            
+        
+
+        marker_208c176d8f052ea7a5e736172c87a313.bindPopup(popup_bcbb48dd0a00010f7ede78de52f9ee31)
+        ;
+
+        
+    
+    
+            var marker_fe265aa93f716d0b8242a9f079e8d843 = L.marker(
+                [28.608167, -106.058348],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0e3b8981bfb3d7bdec4c6d8158bd7a0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bea91710ce2ca2bc73d1158ea9c4ea8a = $(`<div id="html_bea91710ce2ca2bc73d1158ea9c4ea8a" style="width: 100.0%; height: 100.0%;">FOLIO: 1095862<br>FECHA: 2025-05-29 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 76</div>`)[0];
+                popup_0e3b8981bfb3d7bdec4c6d8158bd7a0c.setContent(html_bea91710ce2ca2bc73d1158ea9c4ea8a);
+            
+        
+
+        marker_fe265aa93f716d0b8242a9f079e8d843.bindPopup(popup_0e3b8981bfb3d7bdec4c6d8158bd7a0c)
+        ;
+
+        
+    
+    
+            var marker_ab6312617805aa4e4814240cc6bf728c = L.marker(
+                [28.72503, -106.127315],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3cafcc61e2842e2eb3851c2f705e2bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8eebe6fcf482b7b50e9e969447805e4 = $(`<div id="html_b8eebe6fcf482b7b50e9e969447805e4" style="width: 100.0%; height: 100.0%;">FOLIO: 1095899<br>FECHA: 2025-05-29 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 13</div>`)[0];
+                popup_3cafcc61e2842e2eb3851c2f705e2bf2.setContent(html_b8eebe6fcf482b7b50e9e969447805e4);
+            
+        
+
+        marker_ab6312617805aa4e4814240cc6bf728c.bindPopup(popup_3cafcc61e2842e2eb3851c2f705e2bf2)
+        ;
+
+        
+    
+    
+            var marker_a686942cd4f3b12d192bcb24702a69d7 = L.marker(
+                [28.601808, -106.03885],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c8a35941c6b19a4c773bb1391fb63bb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9aaeeb7243369a1b6df65ebe46fa5ab = $(`<div id="html_a9aaeeb7243369a1b6df65ebe46fa5ab" style="width: 100.0%; height: 100.0%;">FOLIO: 1098784<br>FECHA: 2025-05-30 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_c8a35941c6b19a4c773bb1391fb63bb3.setContent(html_a9aaeeb7243369a1b6df65ebe46fa5ab);
+            
+        
+
+        marker_a686942cd4f3b12d192bcb24702a69d7.bindPopup(popup_c8a35941c6b19a4c773bb1391fb63bb3)
+        ;
+
+        
+    
+    
+            var marker_225647b44d20950695a92ba6b7a5a7ee = L.marker(
+                [28.595712, -106.012245],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_6a01f185d94b1539f933da782b6733c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bca4b94cf833feaf8ddd05700074af62 = $(`<div id="html_bca4b94cf833feaf8ddd05700074af62" style="width: 100.0%; height: 100.0%;">FOLIO: 1098781<br>FECHA: 2025-05-30 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_6a01f185d94b1539f933da782b6733c2.setContent(html_bca4b94cf833feaf8ddd05700074af62);
+            
+        
+
+        marker_225647b44d20950695a92ba6b7a5a7ee.bindPopup(popup_6a01f185d94b1539f933da782b6733c2)
+        ;
+
+        
+    
+    
+            var marker_12127b3ff7c87a43d2fa38fdfab527c9 = L.marker(
+                [28.676445, -106.023851],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_cae71faaf0ee12fa38e9f234b1438a0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_990a965fcea5b15d7af079f1b06129c7 = $(`<div id="html_990a965fcea5b15d7af079f1b06129c7" style="width: 100.0%; height: 100.0%;">FOLIO: 1098407<br>FECHA: 2025-05-30 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 46</div>`)[0];
+                popup_cae71faaf0ee12fa38e9f234b1438a0a.setContent(html_990a965fcea5b15d7af079f1b06129c7);
+            
+        
+
+        marker_12127b3ff7c87a43d2fa38fdfab527c9.bindPopup(popup_cae71faaf0ee12fa38e9f234b1438a0a)
+        ;
+
+        
+    
+    
+            var marker_41e70373313542e17fa546ce6d6b183c = L.marker(
+                [28.767372, -106.169638],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_d29453a158b3cb01e14abdf06f01402a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1961aad3bf74b30b6f354794e9de5de = $(`<div id="html_c1961aad3bf74b30b6f354794e9de5de" style="width: 100.0%; height: 100.0%;">FOLIO: 1097067<br>FECHA: 2025-05-30 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 3</div>`)[0];
+                popup_d29453a158b3cb01e14abdf06f01402a.setContent(html_c1961aad3bf74b30b6f354794e9de5de);
+            
+        
+
+        marker_41e70373313542e17fa546ce6d6b183c.bindPopup(popup_d29453a158b3cb01e14abdf06f01402a)
+        ;
+
+        
+    
+    
+            var marker_74b077f98fd862cb3853fd3a357cdf42 = L.marker(
+                [28.684708, -106.098457],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_fcf6e3c91116f80bdac8d3803384e777 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4daca4414226143e740a74a293d4c401 = $(`<div id="html_4daca4414226143e740a74a293d4c401" style="width: 100.0%; height: 100.0%;">FOLIO: 1099581<br>FECHA: 2025-05-31 00:00:00<br>HORA: 4<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 20</div>`)[0];
+                popup_fcf6e3c91116f80bdac8d3803384e777.setContent(html_4daca4414226143e740a74a293d4c401);
+            
+        
+
+        marker_74b077f98fd862cb3853fd3a357cdf42.bindPopup(popup_fcf6e3c91116f80bdac8d3803384e777)
+        ;
+
+        
+    
+    
+            var marker_37dab82c4bcd42f9f2878df27597fff2 = L.marker(
+                [28.654811, -106.052118],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7d3377ed63ba03407d315de8a55c95df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53419852c978fec70958f8c888dd016c = $(`<div id="html_53419852c978fec70958f8c888dd016c" style="width: 100.0%; height: 100.0%;">FOLIO: 1104575<br>FECHA: 2025-06-01 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Ángel<br>CUADRANTE: 35</div>`)[0];
+                popup_7d3377ed63ba03407d315de8a55c95df.setContent(html_53419852c978fec70958f8c888dd016c);
+            
+        
+
+        marker_37dab82c4bcd42f9f2878df27597fff2.bindPopup(popup_7d3377ed63ba03407d315de8a55c95df)
+        ;
+
+        
+    
+    
+            var marker_b94f479a6be5747be29b656abb4bc4f1 = L.marker(
+                [28.672375, -106.078983],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_cacab3498fda4b86ae7e1f22e37646f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4c47783d50949e3afc8165dcb072eae = $(`<div id="html_c4c47783d50949e3afc8165dcb072eae" style="width: 100.0%; height: 100.0%;">FOLIO: 1110796<br>FECHA: 2025-06-03 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 24</div>`)[0];
+                popup_cacab3498fda4b86ae7e1f22e37646f9.setContent(html_c4c47783d50949e3afc8165dcb072eae);
+            
+        
+
+        marker_b94f479a6be5747be29b656abb4bc4f1.bindPopup(popup_cacab3498fda4b86ae7e1f22e37646f9)
+        ;
+
+        
+    
+    
+            var marker_d86c5e095468e21182a7c457f90b53ca = L.marker(
+                [28.654099, -106.070851],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_60da36d32f8ae10eb20a137f91857612 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceb2e78374b1bb5d00410e95c9ef6626 = $(`<div id="html_ceb2e78374b1bb5d00410e95c9ef6626" style="width: 100.0%; height: 100.0%;">FOLIO: 1117319<br>FECHA: 2025-06-06 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 26</div>`)[0];
+                popup_60da36d32f8ae10eb20a137f91857612.setContent(html_ceb2e78374b1bb5d00410e95c9ef6626);
+            
+        
+
+        marker_d86c5e095468e21182a7c457f90b53ca.bindPopup(popup_60da36d32f8ae10eb20a137f91857612)
+        ;
+
+        
+    
+    
+            var marker_0614f92a6ff9d992491c326f3817b56c = L.marker(
+                [28.632229, -106.052502],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5d72cf691f75af9f8c0da62f8e9074fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4785939224e073762ae4e9ea295fc8aa = $(`<div id="html_4785939224e073762ae4e9ea295fc8aa" style="width: 100.0%; height: 100.0%;">FOLIO: 1125585<br>FECHA: 2025-06-08 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 71</div>`)[0];
+                popup_5d72cf691f75af9f8c0da62f8e9074fe.setContent(html_4785939224e073762ae4e9ea295fc8aa);
+            
+        
+
+        marker_0614f92a6ff9d992491c326f3817b56c.bindPopup(popup_5d72cf691f75af9f8c0da62f8e9074fe)
+        ;
+
+        
+    
+    
+            var marker_d9916aa3b4e32a2b5beb2cbd06e61709 = L.marker(
+                [28.602929, -106.019907],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_611a63e6b0feeb8ce9884963cc074a6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b4f2d45853e2ba1aff965abaf7bc48a = $(`<div id="html_5b4f2d45853e2ba1aff965abaf7bc48a" style="width: 100.0%; height: 100.0%;">FOLIO: 1125900<br>FECHA: 2025-06-08 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_611a63e6b0feeb8ce9884963cc074a6c.setContent(html_5b4f2d45853e2ba1aff965abaf7bc48a);
+            
+        
+
+        marker_d9916aa3b4e32a2b5beb2cbd06e61709.bindPopup(popup_611a63e6b0feeb8ce9884963cc074a6c)
+        ;
+
+        
+    
+    
+            var marker_5df611f107561e782e61b44d05315e93 = L.marker(
+                [28.75054, -106.158772],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_186b5d20f668de5b6fb04f920c8c6ba3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4961e80daeb4cdd04373f7b258e22cb = $(`<div id="html_c4961e80daeb4cdd04373f7b258e22cb" style="width: 100.0%; height: 100.0%;">FOLIO: 1128239<br>FECHA: 2025-06-09 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 6</div>`)[0];
+                popup_186b5d20f668de5b6fb04f920c8c6ba3.setContent(html_c4961e80daeb4cdd04373f7b258e22cb);
+            
+        
+
+        marker_5df611f107561e782e61b44d05315e93.bindPopup(popup_186b5d20f668de5b6fb04f920c8c6ba3)
+        ;
+
+        
+    
+    
+            var marker_699ed9822280e845303f97fb0984e2e6 = L.marker(
+                [28.668266, -106.121381],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e7f0e1749f500bf6a219820ee535ea04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3865cb2dbe042439b3ed7784c4cbae7 = $(`<div id="html_f3865cb2dbe042439b3ed7784c4cbae7" style="width: 100.0%; height: 100.0%;">FOLIO: 1128590<br>FECHA: 2025-06-09 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 21</div>`)[0];
+                popup_e7f0e1749f500bf6a219820ee535ea04.setContent(html_f3865cb2dbe042439b3ed7784c4cbae7);
+            
+        
+
+        marker_699ed9822280e845303f97fb0984e2e6.bindPopup(popup_e7f0e1749f500bf6a219820ee535ea04)
+        ;
+
+        
+    
+    
+            var marker_748801093170a3d6bddf16288f4aee23 = L.marker(
+                [28.698285, -106.098598],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_6dee3550e9e928358ae808c9e45e1889 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0f35ecae465c805c8bbdeb6ecca7322 = $(`<div id="html_d0f35ecae465c805c8bbdeb6ecca7322" style="width: 100.0%; height: 100.0%;">FOLIO: 1130813<br>FECHA: 2025-06-10 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 18</div>`)[0];
+                popup_6dee3550e9e928358ae808c9e45e1889.setContent(html_d0f35ecae465c805c8bbdeb6ecca7322);
+            
+        
+
+        marker_748801093170a3d6bddf16288f4aee23.bindPopup(popup_6dee3550e9e928358ae808c9e45e1889)
+        ;
+
+        
+    
+    
+            var marker_5fd8eadb7429b7a53bc7af746965bd6f = L.marker(
+                [28.598848, -106.033985],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_e1d13890931d7d1dd6efa8ee4b85de04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a206e0315fc3dd5e30c2e930df80872 = $(`<div id="html_8a206e0315fc3dd5e30c2e930df80872" style="width: 100.0%; height: 100.0%;">FOLIO: 1132690<br>FECHA: 2025-06-11 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_e1d13890931d7d1dd6efa8ee4b85de04.setContent(html_8a206e0315fc3dd5e30c2e930df80872);
+            
+        
+
+        marker_5fd8eadb7429b7a53bc7af746965bd6f.bindPopup(popup_e1d13890931d7d1dd6efa8ee4b85de04)
+        ;
+
+        
+    
+    
+            var marker_22bdb9f7ea679e1e5cec91c45605d667 = L.marker(
+                [28.763096, -106.15354],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5d1fe18dff534a7759ecd3303fd88129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_152ca603ed74d2063a736aa5da7c1584 = $(`<div id="html_152ca603ed74d2063a736aa5da7c1584" style="width: 100.0%; height: 100.0%;">FOLIO: 1133775<br>FECHA: 2025-06-11 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 4</div>`)[0];
+                popup_5d1fe18dff534a7759ecd3303fd88129.setContent(html_152ca603ed74d2063a736aa5da7c1584);
+            
+        
+
+        marker_22bdb9f7ea679e1e5cec91c45605d667.bindPopup(popup_5d1fe18dff534a7759ecd3303fd88129)
+        ;
+
+        
+    
+    
+            var marker_407d60d2c59acd04aeec9b02491b6a05 = L.marker(
+                [28.767969, -106.165353],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7876d7747b40b5a13b61e7151d8eb6ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f59e93d390f681be7f03a024fb215c = $(`<div id="html_c3f59e93d390f681be7f03a024fb215c" style="width: 100.0%; height: 100.0%;">FOLIO: 1134705<br>FECHA: 2025-06-12 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 3</div>`)[0];
+                popup_7876d7747b40b5a13b61e7151d8eb6ef.setContent(html_c3f59e93d390f681be7f03a024fb215c);
+            
+        
+
+        marker_407d60d2c59acd04aeec9b02491b6a05.bindPopup(popup_7876d7747b40b5a13b61e7151d8eb6ef)
+        ;
+
+        
+    
+    
+            var marker_bf2f661daf38d82ab1600b303a358be0 = L.marker(
+                [28.74074, -106.145191],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9f80a78f990f0462b5e3075a0f0c49a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6847e39e13b499d6a5a300fa2829e775 = $(`<div id="html_6847e39e13b499d6a5a300fa2829e775" style="width: 100.0%; height: 100.0%;">FOLIO: 1141851<br>FECHA: 2025-06-14 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_9f80a78f990f0462b5e3075a0f0c49a5.setContent(html_6847e39e13b499d6a5a300fa2829e775);
+            
+        
+
+        marker_bf2f661daf38d82ab1600b303a358be0.bindPopup(popup_9f80a78f990f0462b5e3075a0f0c49a5)
+        ;
+
+        
+    
+    
+            var marker_accd6ccfdef09e0e9898d7d4fac437fc = L.marker(
+                [28.670694, -106.096005],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f91e27af4b168df663afeda1e25b7676 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d07e47a4620f4cc866691d1e619757f = $(`<div id="html_0d07e47a4620f4cc866691d1e619757f" style="width: 100.0%; height: 100.0%;">FOLIO: 1144070<br>FECHA: 2025-06-15 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 23</div>`)[0];
+                popup_f91e27af4b168df663afeda1e25b7676.setContent(html_0d07e47a4620f4cc866691d1e619757f);
+            
+        
+
+        marker_accd6ccfdef09e0e9898d7d4fac437fc.bindPopup(popup_f91e27af4b168df663afeda1e25b7676)
+        ;
+
+        
+    
+    
+            var marker_b22b54069aee56e6dcf2b68953ee8064 = L.marker(
+                [28.748212, -106.127828],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a328c59d129c7be596f87e4eff9c91eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_765d4633c4d38dee00a8bc0c23614fbc = $(`<div id="html_765d4633c4d38dee00a8bc0c23614fbc" style="width: 100.0%; height: 100.0%;">FOLIO: 1145980<br>FECHA: 2025-06-15 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 8</div>`)[0];
+                popup_a328c59d129c7be596f87e4eff9c91eb.setContent(html_765d4633c4d38dee00a8bc0c23614fbc);
+            
+        
+
+        marker_b22b54069aee56e6dcf2b68953ee8064.bindPopup(popup_a328c59d129c7be596f87e4eff9c91eb)
+        ;
+
+        
+    
+    
+            var marker_b92012d005a22faca3cc0db592490e82 = L.marker(
+                [28.647143, -106.019628],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ab95f21efa0c1dc315e9722f5b1527a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd65fb86b1d578e58d0179933a108746 = $(`<div id="html_dd65fb86b1d578e58d0179933a108746" style="width: 100.0%; height: 100.0%;">FOLIO: 1146104<br>FECHA: 2025-06-15 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 50</div>`)[0];
+                popup_ab95f21efa0c1dc315e9722f5b1527a5.setContent(html_dd65fb86b1d578e58d0179933a108746);
+            
+        
+
+        marker_b92012d005a22faca3cc0db592490e82.bindPopup(popup_ab95f21efa0c1dc315e9722f5b1527a5)
+        ;
+
+        
+    
+    
+            var marker_1f5187d1316ab67d3cd557f621a08c71 = L.marker(
+                [28.59066, -106.005259],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_cb412fd8e4a455bf3cddd63896013f3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73939036a77a02b3de69cfcecb09b7d9 = $(`<div id="html_73939036a77a02b3de69cfcecb09b7d9" style="width: 100.0%; height: 100.0%;">FOLIO: 1148699<br>FECHA: 2025-06-16 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 61</div>`)[0];
+                popup_cb412fd8e4a455bf3cddd63896013f3e.setContent(html_73939036a77a02b3de69cfcecb09b7d9);
+            
+        
+
+        marker_1f5187d1316ab67d3cd557f621a08c71.bindPopup(popup_cb412fd8e4a455bf3cddd63896013f3e)
+        ;
+
+        
+    
+    
+            var marker_df9928c2746d650ca8c900deb592f50d = L.marker(
+                [28.663674, -105.940648],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_b243b6b1e6cf8cd80a6fe896771c6266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b14b2f8c0365451c9350eba459b9c82 = $(`<div id="html_5b14b2f8c0365451c9350eba459b9c82" style="width: 100.0%; height: 100.0%;">FOLIO: 1155418<br>FECHA: 2025-06-19 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 48</div>`)[0];
+                popup_b243b6b1e6cf8cd80a6fe896771c6266.setContent(html_5b14b2f8c0365451c9350eba459b9c82);
+            
+        
+
+        marker_df9928c2746d650ca8c900deb592f50d.bindPopup(popup_b243b6b1e6cf8cd80a6fe896771c6266)
+        ;
+
+        
+    
+    
+            var marker_4d1dd279f5e2eb2bb2d7e8f76bec49fe = L.marker(
+                [28.678895, -106.118174],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f4ef40a57e653e863fbf55dab593b97c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f9e84b01af7d2cd6ff8982af894c144 = $(`<div id="html_2f9e84b01af7d2cd6ff8982af894c144" style="width: 100.0%; height: 100.0%;">FOLIO: 1155948<br>FECHA: 2025-06-19 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 19</div>`)[0];
+                popup_f4ef40a57e653e863fbf55dab593b97c.setContent(html_2f9e84b01af7d2cd6ff8982af894c144);
+            
+        
+
+        marker_4d1dd279f5e2eb2bb2d7e8f76bec49fe.bindPopup(popup_f4ef40a57e653e863fbf55dab593b97c)
+        ;
+
+        
+    
+    
+            var marker_6a968ecd73a1f9f7fff891b6ddeb5939 = L.marker(
+                [28.596583, -106.015019],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c001086fb520f27d22ff1215c0330c5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcd85f4d4f090a03f6ce8e44f6aca4e0 = $(`<div id="html_bcd85f4d4f090a03f6ce8e44f6aca4e0" style="width: 100.0%; height: 100.0%;">FOLIO: 1158394<br>FECHA: 2025-06-20 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_c001086fb520f27d22ff1215c0330c5d.setContent(html_bcd85f4d4f090a03f6ce8e44f6aca4e0);
+            
+        
+
+        marker_6a968ecd73a1f9f7fff891b6ddeb5939.bindPopup(popup_c001086fb520f27d22ff1215c0330c5d)
+        ;
+
+        
+    
+    
+            var marker_27c73a1cf6a7d299ddb609a7e7ef8fd5 = L.marker(
+                [28.602793, -106.01895],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_96f9a86666ab8ec79a3bd3a816f05002 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7025b37ff5396aa255ad3c34f48090cc = $(`<div id="html_7025b37ff5396aa255ad3c34f48090cc" style="width: 100.0%; height: 100.0%;">FOLIO: 1165821<br>FECHA: 2025-06-23 00:00:00<br>HORA: 7<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_96f9a86666ab8ec79a3bd3a816f05002.setContent(html_7025b37ff5396aa255ad3c34f48090cc);
+            
+        
+
+        marker_27c73a1cf6a7d299ddb609a7e7ef8fd5.bindPopup(popup_96f9a86666ab8ec79a3bd3a816f05002)
+        ;
+
+        
+    
+    
+            var marker_c7b7600cf01d6c55d4a972c0e6c2e18b = L.marker(
+                [28.587154, -106.032978],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_a73ebdb722906219a407120ad09c663c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acfd6253ff9be2fb21234c8d07413284 = $(`<div id="html_acfd6253ff9be2fb21234c8d07413284" style="width: 100.0%; height: 100.0%;">FOLIO: 1166154<br>FECHA: 2025-06-23 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_a73ebdb722906219a407120ad09c663c.setContent(html_acfd6253ff9be2fb21234c8d07413284);
+            
+        
+
+        marker_c7b7600cf01d6c55d4a972c0e6c2e18b.bindPopup(popup_a73ebdb722906219a407120ad09c663c)
+        ;
+
+        
+    
+    
+            var marker_f4af43686e7b3b45122d6b2d39a6ead9 = L.marker(
+                [28.713863, -106.135707],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_89c5ff0f9d81727376e728feff5725a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c790f8d3e33df1b5a79d5cb7484760e7 = $(`<div id="html_c790f8d3e33df1b5a79d5cb7484760e7" style="width: 100.0%; height: 100.0%;">FOLIO: 1167280<br>FECHA: 2025-06-23 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 12</div>`)[0];
+                popup_89c5ff0f9d81727376e728feff5725a7.setContent(html_c790f8d3e33df1b5a79d5cb7484760e7);
+            
+        
+
+        marker_f4af43686e7b3b45122d6b2d39a6ead9.bindPopup(popup_89c5ff0f9d81727376e728feff5725a7)
+        ;
+
+        
+    
+    
+            var marker_92ed2edaf83478eea6618576f9eadcd4 = L.marker(
+                [28.621591, -106.074714],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_ffffaa9c8a39a7a00ea05c87d713a503 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b96b394245953e2143dd4faf513e64b3 = $(`<div id="html_b96b394245953e2143dd4faf513e64b3" style="width: 100.0%; height: 100.0%;">FOLIO: 1171456<br>FECHA: 2025-06-25 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 69</div>`)[0];
+                popup_ffffaa9c8a39a7a00ea05c87d713a503.setContent(html_b96b394245953e2143dd4faf513e64b3);
+            
+        
+
+        marker_92ed2edaf83478eea6618576f9eadcd4.bindPopup(popup_ffffaa9c8a39a7a00ea05c87d713a503)
+        ;
+
+        
+    
+    
+            var marker_8f5b2ecba5fc98820a7fc07eae24264f = L.marker(
+                [28.74053, -106.144855],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_71dcc3b1e24a4e95f202d0f2fe188076 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63f6375e5400c6f9f441322e2b3222c9 = $(`<div id="html_63f6375e5400c6f9f441322e2b3222c9" style="width: 100.0%; height: 100.0%;">FOLIO: 1173801<br>FECHA: 2025-06-26 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_71dcc3b1e24a4e95f202d0f2fe188076.setContent(html_63f6375e5400c6f9f441322e2b3222c9);
+            
+        
+
+        marker_8f5b2ecba5fc98820a7fc07eae24264f.bindPopup(popup_71dcc3b1e24a4e95f202d0f2fe188076)
+        ;
+
+        
+    
+    
+            var marker_f1bdeff540cc95a8a6f3d3b998af3cac = L.marker(
+                [28.612423, -106.017349],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0b03b4e689f3b5a9fc83f31437334ceb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79e4342224574e2ad595d82e4cd6155d = $(`<div id="html_79e4342224574e2ad595d82e4cd6155d" style="width: 100.0%; height: 100.0%;">FOLIO: 1176820<br>FECHA: 2025-06-27 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_0b03b4e689f3b5a9fc83f31437334ceb.setContent(html_79e4342224574e2ad595d82e4cd6155d);
+            
+        
+
+        marker_f1bdeff540cc95a8a6f3d3b998af3cac.bindPopup(popup_0b03b4e689f3b5a9fc83f31437334ceb)
+        ;
+
+        
+    
+    
+            var marker_91c688c6387181981cccfe09b45d74b3 = L.marker(
+                [28.672311, -105.985593],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_bec7b61346882de706193b65b8febbc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c261cc7cb34d4d50468013571f2dcd9 = $(`<div id="html_1c261cc7cb34d4d50468013571f2dcd9" style="width: 100.0%; height: 100.0%;">FOLIO: 1182416<br>FECHA: 2025-06-30 00:00:00<br>HORA: 1<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_bec7b61346882de706193b65b8febbc4.setContent(html_1c261cc7cb34d4d50468013571f2dcd9);
+            
+        
+
+        marker_91c688c6387181981cccfe09b45d74b3.bindPopup(popup_bec7b61346882de706193b65b8febbc4)
+        ;
+
+        
+    
+    
+            var marker_23770c0bee73f7810e485c06250a54e6 = L.marker(
+                [28.643797, -106.071843],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_272d7d6e08ad10750774a7eef2a1983c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9804662ae1400cdb469403da2a1f59eb = $(`<div id="html_9804662ae1400cdb469403da2a1f59eb" style="width: 100.0%; height: 100.0%;">FOLIO: 1191678<br>FECHA: 2025-07-03 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Ángel<br>CUADRANTE: 36</div>`)[0];
+                popup_272d7d6e08ad10750774a7eef2a1983c.setContent(html_9804662ae1400cdb469403da2a1f59eb);
+            
+        
+
+        marker_23770c0bee73f7810e485c06250a54e6.bindPopup(popup_272d7d6e08ad10750774a7eef2a1983c)
+        ;
+
+        
+    
+    
+            var marker_a38b057e528ff24753e961d7612b740c = L.marker(
+                [28.615017, -106.097826],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_4523e373f2361e1ebb7c7e200b113811 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb950075f26f6076b6a3ca16cfc091f2 = $(`<div id="html_fb950075f26f6076b6a3ca16cfc091f2" style="width: 100.0%; height: 100.0%;">FOLIO: 1199083<br>FECHA: 2025-07-06 00:00:00<br>HORA: 9<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 68</div>`)[0];
+                popup_4523e373f2361e1ebb7c7e200b113811.setContent(html_fb950075f26f6076b6a3ca16cfc091f2);
+            
+        
+
+        marker_a38b057e528ff24753e961d7612b740c.bindPopup(popup_4523e373f2361e1ebb7c7e200b113811)
+        ;
+
+        
+    
+    
+            var marker_82c4ceae0c5ae75a16cd1e64c4193a7d = L.marker(
+                [28.700431, -106.099279],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_8a6afece511cdc20426f0b565e7e9c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5acecd6944bd7c407299f0e619eb95b = $(`<div id="html_f5acecd6944bd7c407299f0e619eb95b" style="width: 100.0%; height: 100.0%;">FOLIO: 1204069<br>FECHA: 2025-07-08 00:00:00<br>HORA: 6<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 18</div>`)[0];
+                popup_8a6afece511cdc20426f0b565e7e9c92.setContent(html_f5acecd6944bd7c407299f0e619eb95b);
+            
+        
+
+        marker_82c4ceae0c5ae75a16cd1e64c4193a7d.bindPopup(popup_8a6afece511cdc20426f0b565e7e9c92)
+        ;
+
+        
+    
+    
+            var marker_772c8275d2f2fb916319d1b57ac3ad9e = L.marker(
+                [28.60695, -106.017147],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_b25a7f895d98d87ee7bbc63efe48ec85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_298ed2a11db6944756a6a23eafe6e0b4 = $(`<div id="html_298ed2a11db6944756a6a23eafe6e0b4" style="width: 100.0%; height: 100.0%;">FOLIO: 1205404<br>FECHA: 2025-07-08 00:00:00<br>HORA: 16<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_b25a7f895d98d87ee7bbc63efe48ec85.setContent(html_298ed2a11db6944756a6a23eafe6e0b4);
+            
+        
+
+        marker_772c8275d2f2fb916319d1b57ac3ad9e.bindPopup(popup_b25a7f895d98d87ee7bbc63efe48ec85)
+        ;
+
+        
+    
+    
+            var marker_007405172ea5d9a51ca90a721ef8bfed = L.marker(
+                [28.63659, -106.035347],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_6f53d21c2f1236b5bde0af7d624e99d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87a0ecea111a225745ad4f780cbb35dc = $(`<div id="html_87a0ecea111a225745ad4f780cbb35dc" style="width: 100.0%; height: 100.0%;">FOLIO: 1206436<br>FECHA: 2025-07-08 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 51</div>`)[0];
+                popup_6f53d21c2f1236b5bde0af7d624e99d7.setContent(html_87a0ecea111a225745ad4f780cbb35dc);
+            
+        
+
+        marker_007405172ea5d9a51ca90a721ef8bfed.bindPopup(popup_6f53d21c2f1236b5bde0af7d624e99d7)
+        ;
+
+        
+    
+    
+            var marker_ba1bdfa4d4b6db63d57b254d07834909 = L.marker(
+                [28.60975, -106.080398],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_8d41c1b1d599feb30dc9c98e873ad9d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd0dcab2bffd8fa152374fb4104c8937 = $(`<div id="html_dd0dcab2bffd8fa152374fb4104c8937" style="width: 100.0%; height: 100.0%;">FOLIO: 1210200<br>FECHA: 2025-07-10 00:00:00<br>HORA: 17<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 74</div>`)[0];
+                popup_8d41c1b1d599feb30dc9c98e873ad9d1.setContent(html_dd0dcab2bffd8fa152374fb4104c8937);
+            
+        
+
+        marker_ba1bdfa4d4b6db63d57b254d07834909.bindPopup(popup_8d41c1b1d599feb30dc9c98e873ad9d1)
+        ;
+
+        
+    
+    
+            var marker_c97c886592c5c5cc98ef93d9ecf43a89 = L.marker(
+                [28.582437, -106.120123],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_4c931567887ab400fcbab1bd7775dc36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc3650392148fd55d8de2dc275a30b8a = $(`<div id="html_bc3650392148fd55d8de2dc275a30b8a" style="width: 100.0%; height: 100.0%;">FOLIO: 1216901<br>FECHA: 2025-07-13 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 66</div>`)[0];
+                popup_4c931567887ab400fcbab1bd7775dc36.setContent(html_bc3650392148fd55d8de2dc275a30b8a);
+            
+        
+
+        marker_c97c886592c5c5cc98ef93d9ecf43a89.bindPopup(popup_4c931567887ab400fcbab1bd7775dc36)
+        ;
+
+        
+    
+    
+            var marker_e6479da712635e348857c0df62bb875b = L.marker(
+                [28.602458, -106.108227],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_87d9ead290fabc89b2a0cc9bc738b044 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bd0bb4f3950222bfdecaacb51010179 = $(`<div id="html_9bd0bb4f3950222bfdecaacb51010179" style="width: 100.0%; height: 100.0%;">FOLIO: 1221531<br>FECHA: 2025-07-14 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 67</div>`)[0];
+                popup_87d9ead290fabc89b2a0cc9bc738b044.setContent(html_9bd0bb4f3950222bfdecaacb51010179);
+            
+        
+
+        marker_e6479da712635e348857c0df62bb875b.bindPopup(popup_87d9ead290fabc89b2a0cc9bc738b044)
+        ;
+
+        
+    
+    
+            var marker_34458bd9c2494e74f351316077ee016a = L.marker(
+                [28.643414, -106.034161],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_494da5205ddca245b085848d839c5f57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa2df5ec39966e69be73616ffb538b49 = $(`<div id="html_fa2df5ec39966e69be73616ffb538b49" style="width: 100.0%; height: 100.0%;">FOLIO: 1229378<br>FECHA: 2025-07-17 00:00:00<br>HORA: 0<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 51</div>`)[0];
+                popup_494da5205ddca245b085848d839c5f57.setContent(html_fa2df5ec39966e69be73616ffb538b49);
+            
+        
+
+        marker_34458bd9c2494e74f351316077ee016a.bindPopup(popup_494da5205ddca245b085848d839c5f57)
+        ;
+
+        
+    
+    
+            var marker_16e9cdc6530ab63f6ae1fde892aa0396 = L.marker(
+                [28.644708, -106.036154],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f8fc50bc395f0e3910e75e69c620b378 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5f1fd135fda53d0f630a6d6a79c3591 = $(`<div id="html_f5f1fd135fda53d0f630a6d6a79c3591" style="width: 100.0%; height: 100.0%;">FOLIO: 1229879<br>FECHA: 2025-07-18 00:00:00<br>HORA: 8<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 51</div>`)[0];
+                popup_f8fc50bc395f0e3910e75e69c620b378.setContent(html_f5f1fd135fda53d0f630a6d6a79c3591);
+            
+        
+
+        marker_16e9cdc6530ab63f6ae1fde892aa0396.bindPopup(popup_f8fc50bc395f0e3910e75e69c620b378)
+        ;
+
+        
+    
+    
+            var marker_15bd0f9e5eda94ef566e1945b4a64c11 = L.marker(
+                [28.602501, -106.10828],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_05e3fd0ed4a3e976e9515773f1d3eb4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b955bcce00d7b264a183cd0187f4780 = $(`<div id="html_1b955bcce00d7b264a183cd0187f4780" style="width: 100.0%; height: 100.0%;">FOLIO: 1233370<br>FECHA: 2025-07-19 00:00:00<br>HORA: 12<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 67</div>`)[0];
+                popup_05e3fd0ed4a3e976e9515773f1d3eb4a.setContent(html_1b955bcce00d7b264a183cd0187f4780);
+            
+        
+
+        marker_15bd0f9e5eda94ef566e1945b4a64c11.bindPopup(popup_05e3fd0ed4a3e976e9515773f1d3eb4a)
+        ;
+
+        
+    
+    
+            var marker_684b4c3659cded75cfb7559b7d471c02 = L.marker(
+                [28.64142, -106.001175],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9c1415b1aa77ed14f0baf823918f488a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37cf9bd1a4cf19f976f620c11276c0a7 = $(`<div id="html_37cf9bd1a4cf19f976f620c11276c0a7" style="width: 100.0%; height: 100.0%;">FOLIO: 1236482<br>FECHA: 2025-07-20 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_9c1415b1aa77ed14f0baf823918f488a.setContent(html_37cf9bd1a4cf19f976f620c11276c0a7);
+            
+        
+
+        marker_684b4c3659cded75cfb7559b7d471c02.bindPopup(popup_9c1415b1aa77ed14f0baf823918f488a)
+        ;
+
+        
+    
+    
+            var marker_1d231e507d27c40605f1131c19640506 = L.marker(
+                [28.623377, -106.028913],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_99a1ff068513f22bee547b4e22479d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64488355e71ce7e854f8bd989d90f040 = $(`<div id="html_64488355e71ce7e854f8bd989d90f040" style="width: 100.0%; height: 100.0%;">FOLIO: 1240404<br>FECHA: 2025-07-21 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 72</div>`)[0];
+                popup_99a1ff068513f22bee547b4e22479d97.setContent(html_64488355e71ce7e854f8bd989d90f040);
+            
+        
+
+        marker_1d231e507d27c40605f1131c19640506.bindPopup(popup_99a1ff068513f22bee547b4e22479d97)
+        ;
+
+        
+    
+    
+            var marker_86c214fde2668916ff22547c89d385f9 = L.marker(
+                [28.733298, -106.148719],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_425a6070a348259b8adb3ecd72140209 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c842b1f4139e371d32d92f1aa88b35db = $(`<div id="html_c842b1f4139e371d32d92f1aa88b35db" style="width: 100.0%; height: 100.0%;">FOLIO: 1243341<br>FECHA: 2025-07-23 00:00:00<br>HORA: 10<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 6</div>`)[0];
+                popup_425a6070a348259b8adb3ecd72140209.setContent(html_c842b1f4139e371d32d92f1aa88b35db);
+            
+        
+
+        marker_86c214fde2668916ff22547c89d385f9.bindPopup(popup_425a6070a348259b8adb3ecd72140209)
+        ;
+
+        
+    
+    
+            var marker_0c81fc22fa81dc1991230d041bfe20e9 = L.marker(
+                [28.725176, -106.122496],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_858f2ade300514050cbd76ad03e7e771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ee123279db47e458a632005f6d2556e = $(`<div id="html_7ee123279db47e458a632005f6d2556e" style="width: 100.0%; height: 100.0%;">FOLIO: 1269942<br>FECHA: 2025-08-02 00:00:00<br>HORA: 4<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 13</div>`)[0];
+                popup_858f2ade300514050cbd76ad03e7e771.setContent(html_7ee123279db47e458a632005f6d2556e);
+            
+        
+
+        marker_0c81fc22fa81dc1991230d041bfe20e9.bindPopup(popup_858f2ade300514050cbd76ad03e7e771)
+        ;
+
+        
+    
+    
+            var marker_619674b763da21d23af5ea9f731a7a1d = L.marker(
+                [28.658192, -106.066935],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_b443eeb16d334a343aff3840bc66f3d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1068ad0d883914c1706de39ebe7b244c = $(`<div id="html_1068ad0d883914c1706de39ebe7b244c" style="width: 100.0%; height: 100.0%;">FOLIO: 1274011<br>FECHA: 2025-08-03 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 26</div>`)[0];
+                popup_b443eeb16d334a343aff3840bc66f3d4.setContent(html_1068ad0d883914c1706de39ebe7b244c);
+            
+        
+
+        marker_619674b763da21d23af5ea9f731a7a1d.bindPopup(popup_b443eeb16d334a343aff3840bc66f3d4)
+        ;
+
+        
+    
+    
+            var marker_a74ee21574f1e35a0f096554843f3f1d = L.marker(
+                [28.597391, -106.106491],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_0336dc7540c05ac22ab8feda365dd8b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0b4b390f90020c3af6ecb7c529f5ce7 = $(`<div id="html_d0b4b390f90020c3af6ecb7c529f5ce7" style="width: 100.0%; height: 100.0%;">FOLIO: 1275295<br>FECHA: 2025-08-03 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 73</div>`)[0];
+                popup_0336dc7540c05ac22ab8feda365dd8b1.setContent(html_d0b4b390f90020c3af6ecb7c529f5ce7);
+            
+        
+
+        marker_a74ee21574f1e35a0f096554843f3f1d.bindPopup(popup_0336dc7540c05ac22ab8feda365dd8b1)
+        ;
+
+        
+    
+    
+            var marker_79d38e9859191b4e9312d87f9a826797 = L.marker(
+                [28.579864, -106.045178],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c38d2d6a800ac909c4f3d2e44229e09c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d49b3c0d4974142c48156fb59cc14149 = $(`<div id="html_d49b3c0d4974142c48156fb59cc14149" style="width: 100.0%; height: 100.0%;">FOLIO: 1279337<br>FECHA: 2025-08-06 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 59</div>`)[0];
+                popup_c38d2d6a800ac909c4f3d2e44229e09c.setContent(html_d49b3c0d4974142c48156fb59cc14149);
+            
+        
+
+        marker_79d38e9859191b4e9312d87f9a826797.bindPopup(popup_c38d2d6a800ac909c4f3d2e44229e09c)
+        ;
+
+        
+    
+    
+            var marker_a6e4c42715dbf5dfd3e8dca305c2d821 = L.marker(
+                [28.601346, -106.103486],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_c2708c7b3b655fa0f43cb84d604f436f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc6eee25a1b27f2927f0ab850ff34c9c = $(`<div id="html_fc6eee25a1b27f2927f0ab850ff34c9c" style="width: 100.0%; height: 100.0%;">FOLIO: 1286756<br>FECHA: 2025-08-08 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 67</div>`)[0];
+                popup_c2708c7b3b655fa0f43cb84d604f436f.setContent(html_fc6eee25a1b27f2927f0ab850ff34c9c);
+            
+        
+
+        marker_a6e4c42715dbf5dfd3e8dca305c2d821.bindPopup(popup_c2708c7b3b655fa0f43cb84d604f436f)
+        ;
+
+        
+    
+    
+            var marker_d133651c695657b3e2d5bdd4b9bcb25c = L.marker(
+                [28.577105, -106.030766],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f4720640cf01dbd3b7a33deb55dec98c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4418b0d78cc8c956876b134ff5903c4 = $(`<div id="html_c4418b0d78cc8c956876b134ff5903c4" style="width: 100.0%; height: 100.0%;">FOLIO: 1290494<br>FECHA: 2025-08-09 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 60</div>`)[0];
+                popup_f4720640cf01dbd3b7a33deb55dec98c.setContent(html_c4418b0d78cc8c956876b134ff5903c4);
+            
+        
+
+        marker_d133651c695657b3e2d5bdd4b9bcb25c.bindPopup(popup_f4720640cf01dbd3b7a33deb55dec98c)
+        ;
+
+        
+    
+    
+            var marker_b292a47697f0d4d99674539d8766e864 = L.marker(
+                [28.625846, -106.069895],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9054ce4ed16d8480c96a9adb86eb638a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c85a5ff88547d73906b7c0ae95c9859 = $(`<div id="html_1c85a5ff88547d73906b7c0ae95c9859" style="width: 100.0%; height: 100.0%;">FOLIO: 1290857<br>FECHA: 2025-08-09 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 70</div>`)[0];
+                popup_9054ce4ed16d8480c96a9adb86eb638a.setContent(html_1c85a5ff88547d73906b7c0ae95c9859);
+            
+        
+
+        marker_b292a47697f0d4d99674539d8766e864.bindPopup(popup_9054ce4ed16d8480c96a9adb86eb638a)
+        ;
+
+        
+    
+    
+            var marker_101d3a2eb5e099b94aad8b92e32a4bd2 = L.marker(
+                [28.60252, -106.005416],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7562213652fa6b87e2e7531869854a56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12d6c513f546ce930ed72170c01d42fa = $(`<div id="html_12d6c513f546ce930ed72170c01d42fa" style="width: 100.0%; height: 100.0%;">FOLIO: 1292991<br>FECHA: 2025-08-10 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_7562213652fa6b87e2e7531869854a56.setContent(html_12d6c513f546ce930ed72170c01d42fa);
+            
+        
+
+        marker_101d3a2eb5e099b94aad8b92e32a4bd2.bindPopup(popup_7562213652fa6b87e2e7531869854a56)
+        ;
+
+        
+    
+    
+            var marker_475a3ffa3619c47b596928a139cd99f5 = L.marker(
+                [28.598818, -106.03399],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_7e43928793c75d53a24f5b121f0d6ca8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_364d7dc10c2a2584fb474e711990a4a1 = $(`<div id="html_364d7dc10c2a2584fb474e711990a4a1" style="width: 100.0%; height: 100.0%;">FOLIO: 1297979<br>FECHA: 2025-08-12 00:00:00<br>HORA: 13<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_7e43928793c75d53a24f5b121f0d6ca8.setContent(html_364d7dc10c2a2584fb474e711990a4a1);
+            
+        
+
+        marker_475a3ffa3619c47b596928a139cd99f5.bindPopup(popup_7e43928793c75d53a24f5b121f0d6ca8)
+        ;
+
+        
+    
+    
+            var marker_61e816fcc0f9abf8fddc1092630723cb = L.marker(
+                [28.601398, -106.010427],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_98fe8596fcd550908665567c746142c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44d3f7aa89bade247d0ba918747b6b88 = $(`<div id="html_44d3f7aa89bade247d0ba918747b6b88" style="width: 100.0%; height: 100.0%;">FOLIO: 1298894<br>FECHA: 2025-08-12 00:00:00<br>HORA: 20<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 56</div>`)[0];
+                popup_98fe8596fcd550908665567c746142c9.setContent(html_44d3f7aa89bade247d0ba918747b6b88);
+            
+        
+
+        marker_61e816fcc0f9abf8fddc1092630723cb.bindPopup(popup_98fe8596fcd550908665567c746142c9)
+        ;
+
+        
+    
+    
+            var marker_bf2243825c98c074cac02f2b0a123801 = L.marker(
+                [28.615417, -106.054793],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_5345ec95a78cb8e62212f6527eb57796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f24ec128cc77e2979292b0839098cfa6 = $(`<div id="html_f24ec128cc77e2979292b0839098cfa6" style="width: 100.0%; height: 100.0%;">FOLIO: 1300566<br>FECHA: 2025-08-13 00:00:00<br>HORA: 15<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 76</div>`)[0];
+                popup_5345ec95a78cb8e62212f6527eb57796.setContent(html_f24ec128cc77e2979292b0839098cfa6);
+            
+        
+
+        marker_bf2243825c98c074cac02f2b0a123801.bindPopup(popup_5345ec95a78cb8e62212f6527eb57796)
+        ;
+
+        
+    
+    
+            var marker_f4ef9778009f7421be228d1a8316e005 = L.marker(
+                [28.701342, -106.142733],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_613869b895e9f9bb6aa16211155a929d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6aa8cd52f3be740be80b719f02f61ab2 = $(`<div id="html_6aa8cd52f3be740be80b719f02f61ab2" style="width: 100.0%; height: 100.0%;">FOLIO: 1303066<br>FECHA: 2025-08-14 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 11</div>`)[0];
+                popup_613869b895e9f9bb6aa16211155a929d.setContent(html_6aa8cd52f3be740be80b719f02f61ab2);
+            
+        
+
+        marker_f4ef9778009f7421be228d1a8316e005.bindPopup(popup_613869b895e9f9bb6aa16211155a929d)
+        ;
+
+        
+    
+    
+            var marker_66688ad1d373cbcf4beaa5161995e4d1 = L.marker(
+                [28.607076, -106.043973],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_235119ff3cbae275b359db9314d3c276 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f724135d7a94d6df0ab0d3b78b476fe = $(`<div id="html_3f724135d7a94d6df0ab0d3b78b476fe" style="width: 100.0%; height: 100.0%;">FOLIO: 1302741<br>FECHA: 2025-08-14 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 77</div>`)[0];
+                popup_235119ff3cbae275b359db9314d3c276.setContent(html_3f724135d7a94d6df0ab0d3b78b476fe);
+            
+        
+
+        marker_66688ad1d373cbcf4beaa5161995e4d1.bindPopup(popup_235119ff3cbae275b359db9314d3c276)
+        ;
+
+        
+    
+    
+            var marker_6477b2b54d70b2f7d74f1ad1fcc858dd = L.marker(
+                [28.649567, -106.037],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_200034d4ebf4e0f98b202a983e40b0c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a34487c2854756fed3950b90772aa646 = $(`<div id="html_a34487c2854756fed3950b90772aa646" style="width: 100.0%; height: 100.0%;">FOLIO: 1312172<br>FECHA: 2025-08-17 00:00:00<br>HORA: 22<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 50</div>`)[0];
+                popup_200034d4ebf4e0f98b202a983e40b0c0.setContent(html_a34487c2854756fed3950b90772aa646);
+            
+        
+
+        marker_6477b2b54d70b2f7d74f1ad1fcc858dd.bindPopup(popup_200034d4ebf4e0f98b202a983e40b0c0)
+        ;
+
+        
+    
+    
+            var marker_50e77901a94155bd65035f74c7fa3a15 = L.marker(
+                [28.747964, -106.150074],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_9a1ef46c70467049beaebb0b1563d22a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f0d4b9618e6a9605c6d63c2fb0741c5 = $(`<div id="html_8f0d4b9618e6a9605c6d63c2fb0741c5" style="width: 100.0%; height: 100.0%;">FOLIO: 1318910<br>FECHA: 2025-08-20 00:00:00<br>HORA: 14<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Colón<br>CUADRANTE: 7</div>`)[0];
+                popup_9a1ef46c70467049beaebb0b1563d22a.setContent(html_8f0d4b9618e6a9605c6d63c2fb0741c5);
+            
+        
+
+        marker_50e77901a94155bd65035f74c7fa3a15.bindPopup(popup_9a1ef46c70467049beaebb0b1563d22a)
+        ;
+
+        
+    
+    
+            var marker_ca2adccaee1d162582f94da87c20a51a = L.marker(
+                [28.597309, -106.090897],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_2b9fd6f0bd70168919a94ee305d08634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de3cc093aa9cc15a2a6f6958e7a7d30f = $(`<div id="html_de3cc093aa9cc15a2a6f6958e7a7d30f" style="width: 100.0%; height: 100.0%;">FOLIO: 1322797<br>FECHA: 2025-08-22 00:00:00<br>HORA: 0<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 73</div>`)[0];
+                popup_2b9fd6f0bd70168919a94ee305d08634.setContent(html_de3cc093aa9cc15a2a6f6958e7a7d30f);
+            
+        
+
+        marker_ca2adccaee1d162582f94da87c20a51a.bindPopup(popup_2b9fd6f0bd70168919a94ee305d08634)
+        ;
+
+        
+    
+    
+            var marker_06387ab64fd557960de8a043852bf96f = L.marker(
+                [28.596435, -106.09394],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_8d39ccfa505e4e2c3b6e49efc88780cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bdc44040521a913f4a093d0ee5ab71f = $(`<div id="html_4bdc44040521a913f4a093d0ee5ab71f" style="width: 100.0%; height: 100.0%;">FOLIO: 1327858<br>FECHA: 2025-08-23 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 73</div>`)[0];
+                popup_8d39ccfa505e4e2c3b6e49efc88780cd.setContent(html_4bdc44040521a913f4a093d0ee5ab71f);
+            
+        
+
+        marker_06387ab64fd557960de8a043852bf96f.bindPopup(popup_8d39ccfa505e4e2c3b6e49efc88780cd)
+        ;
+
+        
+    
+    
+            var marker_75da4c5e82c19f7832270c628fb6fdb5 = L.marker(
+                [28.612376, -106.091858],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_bef948c29ed59aff394acd37cef80825 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdaf2b3dcbce51d16bb5784d61abb38e = $(`<div id="html_cdaf2b3dcbce51d16bb5784d61abb38e" style="width: 100.0%; height: 100.0%;">FOLIO: 1327888<br>FECHA: 2025-08-23 00:00:00<br>HORA: 21<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 68</div>`)[0];
+                popup_bef948c29ed59aff394acd37cef80825.setContent(html_cdaf2b3dcbce51d16bb5784d61abb38e);
+            
+        
+
+        marker_75da4c5e82c19f7832270c628fb6fdb5.bindPopup(popup_bef948c29ed59aff394acd37cef80825)
+        ;
+
+        
+    
+    
+            var marker_7ba73eb30e23385a7afd319bf45f2d4d = L.marker(
+                [28.616859, -106.017665],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_8f9064a8258916c369b6fa470cbe118c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f779b5d65bd022052dbeec574dced66 = $(`<div id="html_6f779b5d65bd022052dbeec574dced66" style="width: 100.0%; height: 100.0%;">FOLIO: 1330699<br>FECHA: 2025-08-24 00:00:00<br>HORA: 19<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 55</div>`)[0];
+                popup_8f9064a8258916c369b6fa470cbe118c.setContent(html_6f779b5d65bd022052dbeec574dced66);
+            
+        
+
+        marker_7ba73eb30e23385a7afd319bf45f2d4d.bindPopup(popup_8f9064a8258916c369b6fa470cbe118c)
+        ;
+
+        
+    
+    
+            var marker_00c2dbce8e49ce66aaae2ecc61573f6a = L.marker(
+                [28.679937, -106.102294],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_3138fe6fbbc0cbe0d6975a94a47fd991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbe4762f986203fce93416bcc8c31b57 = $(`<div id="html_cbe4762f986203fce93416bcc8c31b57" style="width: 100.0%; height: 100.0%;">FOLIO: 1332778<br>FECHA: 2025-08-25 00:00:00<br>HORA: 9<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Villa<br>CUADRANTE: 24</div>`)[0];
+                popup_3138fe6fbbc0cbe0d6975a94a47fd991.setContent(html_cbe4762f986203fce93416bcc8c31b57);
+            
+        
+
+        marker_00c2dbce8e49ce66aaae2ecc61573f6a.bindPopup(popup_3138fe6fbbc0cbe0d6975a94a47fd991)
+        ;
+
+        
+    
+    
+            var marker_2784547cd4245fd50f92644cc1e2c7b4 = L.marker(
+                [28.670297, -105.984231],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_bf3c3c2930d539431cf566a7232703ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a74766b0685b62e701b1cad4f4aade1d = $(`<div id="html_a74766b0685b62e701b1cad4f4aade1d" style="width: 100.0%; height: 100.0%;">FOLIO: 1339867<br>FECHA: 2025-08-28 00:00:00<br>HORA: 11<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 47</div>`)[0];
+                popup_bf3c3c2930d539431cf566a7232703ce.setContent(html_a74766b0685b62e701b1cad4f4aade1d);
+            
+        
+
+        marker_2784547cd4245fd50f92644cc1e2c7b4.bindPopup(popup_bf3c3c2930d539431cf566a7232703ce)
+        ;
+
+        
+    
+    
+            var marker_99c3469fdbfe07d741c074a910a894ab = L.marker(
+                [28.650393, -106.091776],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_f058cc3ecef61206009a9a0cd8651e99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd2cc70e5a56137e73cae3d0d06daaf7 = $(`<div id="html_cd2cc70e5a56137e73cae3d0d06daaf7" style="width: 100.0%; height: 100.0%;">FOLIO: 1340515<br>FECHA: 2025-08-28 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Diana<br>CUADRANTE: 31</div>`)[0];
+                popup_f058cc3ecef61206009a9a0cd8651e99.setContent(html_cd2cc70e5a56137e73cae3d0d06daaf7);
+            
+        
+
+        marker_99c3469fdbfe07d741c074a910a894ab.bindPopup(popup_f058cc3ecef61206009a9a0cd8651e99)
+        ;
+
+        
+    
+    
+            var marker_1a70417ea167bc30e3e7c7bedaf331eb = L.marker(
+                [28.63346, -106.002287],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_1e9f0ef14eebe0c6b6a202a1712fe15c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a111de1000d3e94c788547084028ab05 = $(`<div id="html_a111de1000d3e94c788547084028ab05" style="width: 100.0%; height: 100.0%;">FOLIO: 1341325<br>FECHA: 2025-08-28 00:00:00<br>HORA: 23<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Morelos<br>CUADRANTE: 52</div>`)[0];
+                popup_1e9f0ef14eebe0c6b6a202a1712fe15c.setContent(html_a111de1000d3e94c788547084028ab05);
+            
+        
+
+        marker_1a70417ea167bc30e3e7c7bedaf331eb.bindPopup(popup_1e9f0ef14eebe0c6b6a202a1712fe15c)
+        ;
+
+        
+    
+    
+            var marker_94292aed79dd0597cb9cce86ce324ce2 = L.marker(
+                [28.615299, -106.09789],
+                {
+}
+            ).addTo(marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff);
+        
+    
+        var popup_030d31992bedf2f3876f1c97350387fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a81c8c1d4ca8a7c1df7e40a6e2535f1 = $(`<div id="html_2a81c8c1d4ca8a7c1df7e40a6e2535f1" style="width: 100.0%; height: 100.0%;">FOLIO: 1345602<br>FECHA: 2025-08-30 00:00:00<br>HORA: 18<br>TIPO: ROBO A NEGOCIO<br>DISTRITO: Zapata<br>CUADRANTE: 68</div>`)[0];
+                popup_030d31992bedf2f3876f1c97350387fd.setContent(html_2a81c8c1d4ca8a7c1df7e40a6e2535f1);
+            
+        
+
+        marker_94292aed79dd0597cb9cce86ce324ce2.bindPopup(popup_030d31992bedf2f3876f1c97350387fd)
+        ;
+
+        
+    
+    
+            marker_cluster_762e4b2473e13ffbd15c3d02c9cf35ff.addTo(map_bc875275a00636174d689571b124963a);
+        
+</script>
+</html>
