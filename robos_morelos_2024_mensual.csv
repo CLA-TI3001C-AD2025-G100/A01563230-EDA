@@ -1,0 +1,13 @@
+MES,MES_NOMBRE,TOTAL_ROBOS,CATEGORIA
+1,Enero,66,Alto (≥Q3)
+2,Febrero,52,Alto (≥Q3)
+3,Marzo,49,Medio-Alto (Med-Q3)
+4,Abril,47,Medio-Alto (Med-Q3)
+5,Mayo,50,Alto (≥Q3)
+6,Junio,30,Bajo (<Q1)
+7,Julio,43,Medio-Alto (Med-Q3)
+8,Agosto,41,Medio-Bajo (Q1-Med)
+9,Septiembre,37,Bajo (<Q1)
+10,Octubre,42,Medio-Bajo (Q1-Med)
+11,Noviembre,32,Bajo (<Q1)
+12,Diciembre,38,Medio-Bajo (Q1-Med)
